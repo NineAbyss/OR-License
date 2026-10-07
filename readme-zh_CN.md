@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://YOUR-PROJECT-PAGE.github.io/">
-    <img src="https://img.shields.io/badge/PROJECT-WEBSITE-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90%20WEBSITE-2ea44f?style=for-the-badge" alt="Project website">
   </a>
   <a href="https://huggingface.co/datasets/OR-License/OR-License">
     <img src="https://img.shields.io/badge/DATA-4d5eff?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face data">

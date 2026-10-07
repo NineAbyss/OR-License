@@ -5,13 +5,13 @@
     <img src="https://img.shields.io/badge/PROJECT-WEBSITE-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website">
   </a>
   <a href="https://huggingface.co/datasets/OR-License/OR-License">
-    <img src="https://img.shields.io/badge/HUGGING%20FACE-DATA-ffd21e?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face data">
+    <img src="https://img.shields.io/badge/DATA-4d5eff?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face data">
   </a>
   <a href="https://github.com/NineAbyss/OR-License-private-test">
-    <img src="https://img.shields.io/badge/GITHUB-CODE-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub code">
+    <img src="https://img.shields.io/badge/CODE-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub code">
   </a>
   <a href="https://arxiv.org/abs/XXXX.XXXXX">
-    <img src="https://img.shields.io/badge/ARXIV-PAPER-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv paper">
+    <img src="https://img.shields.io/badge/PAPER-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv paper">
   </a>
 </p>
 

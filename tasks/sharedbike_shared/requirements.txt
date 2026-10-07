@@ -1,0 +1,7 @@
+
+duckdb>=1.0
+numpy>=1.24
+pandas>=1.5
+PyYAML>=6
+gurobipy>=12
+python-dotenv>=1

@@ -1,0 +1,4 @@
+benchmark: IN932000
+history_days: 100
+multiperiod:
+  period_num: 1

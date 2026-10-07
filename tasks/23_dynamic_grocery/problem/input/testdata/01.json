@@ -1,0 +1,7 @@
+{
+  "contract_version": "rolling-grocery-v2",
+  "case_id": "23_dynamic_grocery",
+  "instances": ["GD01", "GD02", "GD03"],
+  "dispatch_rounds": [1, 2, 3, 4, 5, 6],
+  "objective": "mean route driving duration across the three service days"
+}

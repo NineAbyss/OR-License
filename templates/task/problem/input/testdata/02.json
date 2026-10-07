@@ -1,0 +1,14 @@
+{
+  "line_id": "L2",
+  "changeover_minutes": 45,
+  "jobs": [
+    {"job_id": "K01", "family": "frozen", "minutes": 50, "weight": 2},
+    {"job_id": "K02", "family": "frozen", "minutes": 10, "weight": 4},
+    {"job_id": "K03", "family": "chilled", "minutes": 30, "weight": 6},
+    {"job_id": "K04", "family": "ambient", "minutes": 20, "weight": 1},
+    {"job_id": "K05", "family": "chilled", "minutes": 45, "weight": 3},
+    {"job_id": "K06", "family": "ambient", "minutes": 15, "weight": 2},
+    {"job_id": "K07", "family": "frozen", "minutes": 25, "weight": 5},
+    {"job_id": "K08", "family": "chilled", "minutes": 5, "weight": 1}
+  ]
+}

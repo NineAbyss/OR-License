@@ -1,0 +1,13 @@
+{
+  "mode": "online_hourly_v1",
+  "observation_cutoff_exclusive": "2026-08-30T12:00:00",
+  "raw_rows": 25384267,
+  "latest_observation": "2026-08-30T11:59:55",
+  "files": [
+    "station_catalog.csv",
+    "raw_events.parquet",
+    "inventory_anchor.csv",
+    "operator_events.csv",
+    "task_policy.yaml"
+  ]
+}

@@ -1,0 +1,37 @@
+name: Task fix request
+description: Report a shortcut, a wrong rule, or a broken file in a merged task.
+title: "[Fix] <task>: <short description>"
+labels: ["task fix"]
+body:
+  - type: input
+    id: task
+    attributes:
+      label: Task
+      placeholder: "e.g. 3_food3"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of problem
+      options:
+        - Agent passes through a shortcut
+        - Verifier accepts an infeasible plan or rejects a feasible one
+        - Evaluator does not match the problem description
+        - Ledger fact is missing, wrong, or reveals too much
+        - Brief or problem description is wrong or ambiguous
+        - Reference solution or recorded objective is wrong
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Trajectory excerpt, submitted file, validator output, or a minimal reproduction.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested fix

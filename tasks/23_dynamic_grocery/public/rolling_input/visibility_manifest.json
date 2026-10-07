@@ -1,0 +1,13 @@
+{
+  "mode": "rolling_batch_v1",
+  "files": [
+    "GD01_customers.csv",
+    "GD01_duration_matrix.csv",
+    "GD02_customers.csv",
+    "GD02_duration_matrix.csv",
+    "GD03_customers.csv",
+    "GD03_duration_matrix.csv",
+    "manifest.json",
+    "task_policy.yaml"
+  ]
+}

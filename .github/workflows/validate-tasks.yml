@@ -1,0 +1,55 @@
+name: Validate tasks
+
+on:
+  pull_request:
+    paths:
+      - "tasks/**"
+      - "templates/**"
+      - "orsim/**"
+      - "scripts/new_task.py"
+      - "scripts/validate_task.py"
+      - "tests/test_task_contribution.py"
+      - ".github/workflows/validate-tasks.yml"
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt pytest==9.1.1
+      - name: Check every registered task
+        run: python scripts/validate_task.py --all --quiet
+      - name: Contribution tooling tests
+        run: python -m pytest -q tests/test_task_contribution.py
+      - name: Full checks on changed tasks
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          status=0
+          for task in $(git diff --name-only "$BASE_SHA"...HEAD -- tasks/ | awk -F/ 'NF > 2 {print $2}' | sort -u); do
+            [ -f "tasks/$task/task.toml" ] || continue
+            if [ -f "tasks/$task/expert/requirements.txt" ]; then
+              python -m pip install -r "tasks/$task/expert/requirements.txt"
+            fi
+            if git cat-file -e "$BASE_SHA:tasks/$task/task.toml" 2>/dev/null; then
+              python scripts/validate_task.py "tasks/$task" --oracle || status=1
+            else
+              python scripts/validate_task.py "tasks/$task" --strict --oracle || status=1
+            fi
+          done
+          exit $status

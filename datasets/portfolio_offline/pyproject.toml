@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "quant-pro"
+version = "1.1.2"
+description = "Offline portfolio data and backtest runtime"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy==2.4.6",
+  "pandas==2.3.3",
+  "scipy==1.17.1",
+  "pyarrow==19.0.1",
+  "PyYAML==6.0.3",
+  "python-dotenv==1.2.3",
+  "Mosek==11.2.3",
+  "backtrader==1.9.78.123",
+  "exchange_calendars==4.13.2",
+  "gurobipy==12.0.3"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/quant_pro", "factor_client", "src/data_process"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"configs" = "quant_pro/configs"

@@ -1,0 +1,9 @@
+contract_version: "sif-asof-3"
+document_revision: 3
+runtime_parameter_source: "frozen_verifier_objective_and_workflow_config"
+role: "documentation_mirror_only"
+
+benchmark_defaults:
+  solver_time_limit_seconds: 1800
+  objective_direction: "maximize"
+  time_unit: "asof_backtest_window"

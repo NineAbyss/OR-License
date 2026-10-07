@@ -1,0 +1,12 @@
+{
+  "line_id": "L1",
+  "changeover_minutes": 30,
+  "jobs": [
+    {"job_id": "J01", "family": "dairy", "minutes": 40, "weight": 3},
+    {"job_id": "J02", "family": "bakery", "minutes": 25, "weight": 1},
+    {"job_id": "J03", "family": "dairy", "minutes": 15, "weight": 2},
+    {"job_id": "J04", "family": "snacks", "minutes": 60, "weight": 5},
+    {"job_id": "J05", "family": "bakery", "minutes": 35, "weight": 4},
+    {"job_id": "J06", "family": "snacks", "minutes": 20, "weight": 1}
+  ]
+}

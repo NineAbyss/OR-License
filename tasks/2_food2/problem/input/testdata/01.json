@@ -1,0 +1,23 @@
+{
+    "input_mat": [
+        [1, 1, 1, 0],
+        [0, 1, 1, 0],
+        [0, 1, 1, 0],
+        [0, 0, 0, 1]
+    ],
+    "max_loop": 20,
+    "machine_num": 4,
+    "machine_state": [0, 1, 2, 3],
+    "demand_num": [
+        [4, 4, 4],
+        [4, 4, 4],
+        [4, 2, 2],
+        [5, 2, 3],
+        [5, 3, 2]
+    ],
+    "product_time": [50, 38, 45, 30],
+    "product_names": ["Product A", "Product B", "some other product", "brine"],
+    "priority": [1, 2, 3],
+    "priority_weight": 50,
+    "time_limit": 1800
+}

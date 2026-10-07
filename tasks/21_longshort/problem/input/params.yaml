@@ -1,0 +1,9 @@
+contract_version: "longshort-asof-1"
+document_revision: 1
+runtime_parameter_source: "frozen_verifier_and_backtest_framework"
+role: "documentation_mirror_only"
+benchmark_defaults:
+  solver_time_limit_seconds: 180
+  daily_solver_timeout_seconds: 3600
+  objective_direction: "maximize"
+  time_unit: "asof_backtest_window"

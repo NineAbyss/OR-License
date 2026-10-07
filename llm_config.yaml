@@ -1,0 +1,23 @@
+models:
+  tested:
+    model: your-model-id
+    api_protocol: openai_chat_completions
+    api_base_env: TESTED_API_BASE
+    api_key_env: TESTED_API_KEY
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 65536
+    context_window: 262144
+
+  deepseek_flash:
+    model: deepseek-flash
+    api_protocol: openai_chat_completions
+    api_base: https://api.deepseek.com/v1
+    api_key_env: DEEPSEEK_API_KEY
+    temperature: 1.0
+    top_p: 0.95
+    reasoning_effort: high
+    max_tokens: 393216
+    context_window: 1048576
+    thinking:
+      type: enabled

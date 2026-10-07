@@ -1,0 +1,416 @@
+{
+  "case_id": "01",
+  "contract_version": "copper-harbor-1",
+  "planning_horizon_days": 7,
+  "daily_production_ton": 3341.0,
+  "max_mineral_num": 8,
+  "minimum_ratio_used": 3.0,
+  "mineral_select": 0,
+  "objective_mode": "best_price",
+  "price_weight": 1.0,
+  "quality_weight": 1.0,
+  "best_price_quality_coeff": 0.1,
+  "elements": [
+    "Cu",
+    "S",
+    "Fe",
+    "SiO2",
+    "CaO",
+    "As",
+    "Bi",
+    "Sb",
+    "Zn",
+    "Pb",
+    "F",
+    "Ni",
+    "MgO",
+    "Al2O3"
+  ],
+  "materials": [
+    {
+      "id": "COPPER_MATERIAL_01",
+      "inventory_ton": 6400.0,
+      "price": 1800.0,
+      "forced": true,
+      "ratio_lb": 2.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 18.71,
+        "S": 38.3,
+        "Fe": 28.95,
+        "SiO2": 2.26,
+        "CaO": 0.57,
+        "As": 3.7,
+        "Bi": 0.12,
+        "Sb": 0.54,
+        "Zn": 3.71,
+        "Pb": 0.37
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_02",
+      "inventory_ton": 2650.0,
+      "price": 1800.0,
+      "forced": true,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 17.65,
+        "S": 20.3,
+        "Fe": 35.71,
+        "SiO2": 4.65,
+        "CaO": 1.98,
+        "As": 0.98,
+        "Bi": 0.05,
+        "Sb": 0.38,
+        "Zn": 1.88,
+        "Pb": 3.79
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_03",
+      "inventory_ton": 1800.0,
+      "price": 1800.0,
+      "forced": false,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 25.08,
+        "S": 30.18,
+        "Fe": 27.57,
+        "SiO2": 5.37,
+        "CaO": 1.81,
+        "As": 0.03,
+        "Bi": 0.24,
+        "Sb": 0.05,
+        "Zn": 1.97,
+        "Pb": 0.21
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_04",
+      "inventory_ton": 2850.0,
+      "price": 1800.0,
+      "forced": false,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 23.92,
+        "S": 6.81,
+        "Fe": 30.38,
+        "SiO2": 20.94,
+        "CaO": 1.32,
+        "As": 0.65,
+        "Bi": 0.02,
+        "Sb": 0.27,
+        "Zn": 1.25,
+        "Pb": 0.7
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_05",
+      "inventory_ton": 10000.0,
+      "price": 1800.0,
+      "forced": false,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 27.67,
+        "S": 31.17,
+        "Fe": 27.53,
+        "SiO2": 5.63,
+        "CaO": 0.54,
+        "As": 0.16,
+        "Bi": 0.01,
+        "Sb": 0.33,
+        "Zn": 0.42,
+        "Pb": 0.05
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_06",
+      "inventory_ton": 8100.0,
+      "price": 1800.0,
+      "forced": false,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 29.02,
+        "S": 22.53,
+        "Fe": 23.69,
+        "SiO2": 13.35,
+        "CaO": 0.75,
+        "As": 0.19,
+        "Bi": 0.01,
+        "Sb": 0.07,
+        "Zn": 2.97,
+        "Pb": 0.21
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_07",
+      "inventory_ton": 6300.0,
+      "price": 1800.0,
+      "forced": false,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 20.76,
+        "S": 30.5,
+        "Fe": 8.49,
+        "SiO2": 8.03,
+        "CaO": 1.06,
+        "As": 0.84,
+        "Bi": 0.12,
+        "Sb": 0.16,
+        "Zn": 1.23,
+        "Pb": 0.91
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_08",
+      "inventory_ton": 850.0,
+      "price": 1800.0,
+      "forced": false,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 23.63,
+        "S": 30.44,
+        "Fe": 25.41,
+        "SiO2": 9.19,
+        "CaO": 0.65,
+        "As": 0.1,
+        "Bi": 0.01,
+        "Sb": 0.03,
+        "Zn": 2.0,
+        "Pb": 0.18
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_09",
+      "inventory_ton": 25600.0,
+      "price": 1800.0,
+      "forced": true,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 24.72,
+        "S": 32.08,
+        "Fe": 28.28,
+        "SiO2": 6.21,
+        "CaO": 1.03,
+        "As": 0.11,
+        "Bi": 0.01,
+        "Sb": 0.08,
+        "Zn": 0.08,
+        "Pb": 0.06
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_10",
+      "inventory_ton": 6400.0,
+      "price": 1800.0,
+      "forced": true,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 31.83,
+        "S": 21.27,
+        "Fe": 15.72,
+        "SiO2": 15.93,
+        "CaO": 1.33,
+        "As": 0.26,
+        "Bi": 0.01,
+        "Sb": 0.01,
+        "Zn": 0.2,
+        "Pb": 0.08
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_11",
+      "inventory_ton": 10000.0,
+      "price": 1800.0,
+      "forced": true,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 24.2,
+        "S": 31.68,
+        "Fe": 26.97,
+        "SiO2": 7.44,
+        "CaO": 0.92,
+        "As": 0.28,
+        "Bi": 0.01,
+        "Sb": 0.03,
+        "Zn": 0.63,
+        "Pb": 0.12
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_12",
+      "inventory_ton": 4000.0,
+      "price": 1800.0,
+      "forced": true,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 22.23,
+        "S": 31.19,
+        "Fe": 26.98,
+        "SiO2": 9.12,
+        "CaO": 0.88,
+        "As": 0.12,
+        "Bi": 0.01,
+        "Sb": 0.03,
+        "Zn": 0.45,
+        "Pb": 0.11
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_13",
+      "inventory_ton": 8000.0,
+      "price": 1800.0,
+      "forced": true,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 22.07,
+        "S": 27.73,
+        "Fe": 34.36,
+        "SiO2": 1.53,
+        "CaO": 0.68,
+        "As": 0.28,
+        "Bi": 0.01,
+        "Sb": 0.01,
+        "Zn": 0.02,
+        "Pb": 0.01
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_14",
+      "inventory_ton": 10000.0,
+      "price": 1800.0,
+      "forced": true,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 19.05,
+        "S": 21.32,
+        "Fe": 19.32,
+        "SiO2": 22.9,
+        "CaO": 2.57,
+        "As": 0.01,
+        "Bi": 0.01,
+        "Sb": 0.01,
+        "Zn": 0.12,
+        "Pb": 0.04
+      }
+    },
+    {
+      "id": "COPPER_MATERIAL_15",
+      "inventory_ton": 8100.0,
+      "price": 1800.0,
+      "forced": true,
+      "ratio_lb": 0.0,
+      "ratio_ub": null,
+      "composition": {
+        "Cu": 13.29,
+        "S": 34.43,
+        "Fe": 28.93,
+        "SiO2": 4.0,
+        "CaO": 0.94,
+        "As": 0.05,
+        "Bi": 0.04,
+        "Sb": 0.03,
+        "Zn": 6.14,
+        "Pb": 6.5
+      }
+    }
+  ],
+  "quality_constraints": [
+    {
+      "name": "S/Cu",
+      "kind": "ratio",
+      "numerator": "S",
+      "denominator": "Cu",
+      "lb": null,
+      "ub": 1.25,
+      "opt": 1.15,
+      "weight": 70.0
+    },
+    {
+      "name": "Fe/SiO2",
+      "kind": "ratio",
+      "numerator": "Fe",
+      "denominator": "SiO2",
+      "lb": null,
+      "ub": 4.5,
+      "opt": 4.0,
+      "weight": 0.0
+    },
+    {
+      "name": "As",
+      "kind": "element",
+      "element": "As",
+      "lb": null,
+      "ub": 0.4,
+      "opt": 0.3,
+      "weight": 0.0
+    },
+    {
+      "name": "Pb",
+      "kind": "element",
+      "element": "Pb",
+      "lb": null,
+      "ub": 0.9,
+      "opt": 0.5,
+      "weight": 0.0
+    },
+    {
+      "name": "Zn",
+      "kind": "element",
+      "element": "Zn",
+      "lb": null,
+      "ub": 1.3,
+      "opt": 0.8,
+      "weight": 0.0
+    },
+    {
+      "name": "Bi",
+      "kind": "element",
+      "element": "Bi",
+      "lb": null,
+      "ub": 0.05,
+      "opt": null,
+      "weight": 0.0
+    },
+    {
+      "name": "F",
+      "kind": "element",
+      "element": "F",
+      "lb": null,
+      "ub": 0.02,
+      "opt": null,
+      "weight": 0.0
+    },
+    {
+      "name": "MgO",
+      "kind": "element",
+      "element": "MgO",
+      "lb": null,
+      "ub": 0.3,
+      "opt": null,
+      "weight": 0.0
+    },
+    {
+      "name": "Al2O3",
+      "kind": "element",
+      "element": "Al2O3",
+      "lb": null,
+      "ub": 0.5,
+      "opt": null,
+      "weight": 0.0
+    }
+  ]
+}

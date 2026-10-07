@@ -1,0 +1,7308 @@
+{
+  "case_id": "01",
+  "tbegin": "2021-01-02T00:00:00",
+  "lines": [
+    {
+      "line_id": 1,
+      "initial": {
+        "product": "P000127",
+        "color": "Black",
+        "base": "M000007",
+        "halogen": 2,
+        "filler": "M",
+        "filler_ratio": 4.0,
+        "quantity": 7000.0
+      }
+    },
+    {
+      "line_id": 2,
+      "initial": {
+        "product": "P000037",
+        "color": "Black",
+        "base": "M000008",
+        "halogen": 2,
+        "filler": "G",
+        "filler_ratio": 4.0,
+        "quantity": 2000.0
+      }
+    },
+    {
+      "line_id": 3,
+      "initial": {
+        "product": "P000030",
+        "color": "Black",
+        "base": "M000005",
+        "halogen": 2,
+        "filler": "None",
+        "filler_ratio": 0.0,
+        "quantity": 500.0
+      }
+    },
+    {
+      "line_id": 4,
+      "initial": {
+        "product": "P000329",
+        "color": "Black",
+        "base": "M000005",
+        "halogen": 0,
+        "filler": "G",
+        "filler_ratio": 8.0,
+        "quantity": 1000.0
+      }
+    },
+    {
+      "line_id": 5,
+      "initial": {
+        "product": "P000183",
+        "color": "Natural",
+        "base": "M000001",
+        "halogen": 2,
+        "filler": "None",
+        "filler_ratio": 0.0,
+        "quantity": 1000.0
+      }
+    },
+    {
+      "line_id": 6,
+      "initial": {
+        "product": "P000483",
+        "color": "Black",
+        "base": "M000017",
+        "halogen": 2,
+        "filler": "None",
+        "filler_ratio": 0.0,
+        "quantity": 1400.0
+      }
+    },
+    {
+      "line_id": 7,
+      "initial": {
+        "product": "P000082",
+        "color": "Black",
+        "base": "M000007",
+        "halogen": 2,
+        "filler": "GL",
+        "filler_ratio": 8.0,
+        "quantity": 2000.0
+      }
+    }
+  ],
+  "rates": [
+    {
+      "product": "P000001",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000002",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000002",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000002",
+      "line_id": 3,
+      "rate": 700.0
+    },
+    {
+      "product": "P000002",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000003",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000003",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000003",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000004",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000004",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000005",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000006",
+      "line_id": 1,
+      "rate": 850.0
+    },
+    {
+      "product": "P000006",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000006",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000006",
+      "line_id": 5,
+      "rate": 650.0
+    },
+    {
+      "product": "P000007",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000007",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000008",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000008",
+      "line_id": 3,
+      "rate": 800.0
+    },
+    {
+      "product": "P000008",
+      "line_id": 4,
+      "rate": 400.0
+    },
+    {
+      "product": "P000008",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000009",
+      "line_id": 5,
+      "rate": 550.0
+    },
+    {
+      "product": "P000009",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000010",
+      "line_id": 1,
+      "rate": 1000.0
+    },
+    {
+      "product": "P000010",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000010",
+      "line_id": 3,
+      "rate": 750.0
+    },
+    {
+      "product": "P000010",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000011",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000011",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000012",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000014",
+      "line_id": 1,
+      "rate": 750.0
+    },
+    {
+      "product": "P000014",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000014",
+      "line_id": 5,
+      "rate": 450.0
+    },
+    {
+      "product": "P000016",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000016",
+      "line_id": 4,
+      "rate": 150.0
+    },
+    {
+      "product": "P000016",
+      "line_id": 7,
+      "rate": 120.0
+    },
+    {
+      "product": "P000017",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000017",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000018",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000018",
+      "line_id": 4,
+      "rate": 310.0
+    },
+    {
+      "product": "P000020",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000020",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000021",
+      "line_id": 1,
+      "rate": 750.0
+    },
+    {
+      "product": "P000022",
+      "line_id": 1,
+      "rate": 700.0
+    },
+    {
+      "product": "P000022",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000022",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000022",
+      "line_id": 4,
+      "rate": 360.0
+    },
+    {
+      "product": "P000022",
+      "line_id": 5,
+      "rate": 520.0
+    },
+    {
+      "product": "P000022",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000023",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000023",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000023",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000024",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000024",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000025",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000026",
+      "line_id": 2,
+      "rate": 600.0
+    },
+    {
+      "product": "P000027",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000028",
+      "line_id": 2,
+      "rate": 600.0
+    },
+    {
+      "product": "P000028",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000029",
+      "line_id": 3,
+      "rate": 700.0
+    },
+    {
+      "product": "P000030",
+      "line_id": 3,
+      "rate": 150.0
+    },
+    {
+      "product": "P000030",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000030",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000032",
+      "line_id": 2,
+      "rate": 920.0
+    },
+    {
+      "product": "P000032",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000032",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000034",
+      "line_id": 1,
+      "rate": 1000.0
+    },
+    {
+      "product": "P000034",
+      "line_id": 3,
+      "rate": 700.0
+    },
+    {
+      "product": "P000034",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000035",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000035",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000036",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000037",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000037",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000039",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000040",
+      "line_id": 7,
+      "rate": 120.0
+    },
+    {
+      "product": "P000041",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000041",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000043",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000043",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000044",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000044",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000044",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000045",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000045",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000046",
+      "line_id": 1,
+      "rate": 750.0
+    },
+    {
+      "product": "P000047",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000047",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000048",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000049",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000049",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000049",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000050",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000050",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000050",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000051",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000051",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000052",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000052",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000053",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000053",
+      "line_id": 3,
+      "rate": 800.0
+    },
+    {
+      "product": "P000053",
+      "line_id": 4,
+      "rate": 400.0
+    },
+    {
+      "product": "P000053",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000054",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000055",
+      "line_id": 1,
+      "rate": 1000.0
+    },
+    {
+      "product": "P000055",
+      "line_id": 2,
+      "rate": 1000.0
+    },
+    {
+      "product": "P000055",
+      "line_id": 3,
+      "rate": 780.0
+    },
+    {
+      "product": "P000055",
+      "line_id": 5,
+      "rate": 750.0
+    },
+    {
+      "product": "P000056",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000056",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000057",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000057",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000058",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000058",
+      "line_id": 3,
+      "rate": 800.0
+    },
+    {
+      "product": "P000058",
+      "line_id": 4,
+      "rate": 400.0
+    },
+    {
+      "product": "P000058",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000059",
+      "line_id": 2,
+      "rate": 1050.0
+    },
+    {
+      "product": "P000060",
+      "line_id": 2,
+      "rate": 950.0
+    },
+    {
+      "product": "P000060",
+      "line_id": 3,
+      "rate": 680.0
+    },
+    {
+      "product": "P000060",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000061",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000063",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000064",
+      "line_id": 6,
+      "rate": 90.0
+    },
+    {
+      "product": "P000065",
+      "line_id": 1,
+      "rate": 850.0
+    },
+    {
+      "product": "P000065",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000065",
+      "line_id": 4,
+      "rate": 330.0
+    },
+    {
+      "product": "P000065",
+      "line_id": 5,
+      "rate": 620.0
+    },
+    {
+      "product": "P000066",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000066",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000066",
+      "line_id": 5,
+      "rate": 400.0
+    },
+    {
+      "product": "P000067",
+      "line_id": 5,
+      "rate": 580.0
+    },
+    {
+      "product": "P000067",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000070",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000071",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000072",
+      "line_id": 5,
+      "rate": 520.0
+    },
+    {
+      "product": "P000073",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000073",
+      "line_id": 7,
+      "rate": 240.0
+    },
+    {
+      "product": "P000074",
+      "line_id": 1,
+      "rate": 450.0
+    },
+    {
+      "product": "P000075",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000076",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000077",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000078",
+      "line_id": 1,
+      "rate": 750.0
+    },
+    {
+      "product": "P000078",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000079",
+      "line_id": 1,
+      "rate": 700.0
+    },
+    {
+      "product": "P000080",
+      "line_id": 5,
+      "rate": 550.0
+    },
+    {
+      "product": "P000080",
+      "line_id": 7,
+      "rate": 120.0
+    },
+    {
+      "product": "P000081",
+      "line_id": 1,
+      "rate": 700.0
+    },
+    {
+      "product": "P000081",
+      "line_id": 4,
+      "rate": 190.0
+    },
+    {
+      "product": "P000082",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000083",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000083",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000083",
+      "line_id": 6,
+      "rate": 100.0
+    },
+    {
+      "product": "P000084",
+      "line_id": 5,
+      "rate": 240.0
+    },
+    {
+      "product": "P000084",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000085",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000085",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000086",
+      "line_id": 5,
+      "rate": 300.0
+    },
+    {
+      "product": "P000087",
+      "line_id": 3,
+      "rate": 410.0
+    },
+    {
+      "product": "P000088",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000088",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000089",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000089",
+      "line_id": 3,
+      "rate": 700.0
+    },
+    {
+      "product": "P000089",
+      "line_id": 4,
+      "rate": 440.0
+    },
+    {
+      "product": "P000089",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000090",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000090",
+      "line_id": 3,
+      "rate": 700.0
+    },
+    {
+      "product": "P000090",
+      "line_id": 4,
+      "rate": 450.0
+    },
+    {
+      "product": "P000090",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000091",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000092",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000093",
+      "line_id": 5,
+      "rate": 400.0
+    },
+    {
+      "product": "P000093",
+      "line_id": 7,
+      "rate": 130.0
+    },
+    {
+      "product": "P000094",
+      "line_id": 4,
+      "rate": 240.0
+    },
+    {
+      "product": "P000095",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000095",
+      "line_id": 5,
+      "rate": 750.0
+    },
+    {
+      "product": "P000095",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000096",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000097",
+      "line_id": 2,
+      "rate": 860.0
+    },
+    {
+      "product": "P000097",
+      "line_id": 3,
+      "rate": 680.0
+    },
+    {
+      "product": "P000097",
+      "line_id": 4,
+      "rate": 360.0
+    },
+    {
+      "product": "P000097",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000097",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000098",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000098",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000099",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000099",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000100",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000100",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000101",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000102",
+      "line_id": 5,
+      "rate": 570.0
+    },
+    {
+      "product": "P000102",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000103",
+      "line_id": 3,
+      "rate": 700.0
+    },
+    {
+      "product": "P000103",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000106",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000107",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000107",
+      "line_id": 7,
+      "rate": 130.0
+    },
+    {
+      "product": "P000108",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000109",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000110",
+      "line_id": 4,
+      "rate": 260.0
+    },
+    {
+      "product": "P000110",
+      "line_id": 7,
+      "rate": 80.0
+    },
+    {
+      "product": "P000111",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000111",
+      "line_id": 7,
+      "rate": 240.0
+    },
+    {
+      "product": "P000112",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000112",
+      "line_id": 4,
+      "rate": 180.0
+    },
+    {
+      "product": "P000113",
+      "line_id": 2,
+      "rate": 520.0
+    },
+    {
+      "product": "P000113",
+      "line_id": 4,
+      "rate": 150.0
+    },
+    {
+      "product": "P000114",
+      "line_id": 1,
+      "rate": 700.0
+    },
+    {
+      "product": "P000114",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000115",
+      "line_id": 2,
+      "rate": 500.0
+    },
+    {
+      "product": "P000116",
+      "line_id": 2,
+      "rate": 500.0
+    },
+    {
+      "product": "P000117",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000117",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000119",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000120",
+      "line_id": 1,
+      "rate": 850.0
+    },
+    {
+      "product": "P000120",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000121",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000121",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000121",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000122",
+      "line_id": 3,
+      "rate": 580.0
+    },
+    {
+      "product": "P000122",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000122",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000123",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000124",
+      "line_id": 4,
+      "rate": 260.0
+    },
+    {
+      "product": "P000125",
+      "line_id": 1,
+      "rate": 450.0
+    },
+    {
+      "product": "P000126",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000126",
+      "line_id": 5,
+      "rate": 650.0
+    },
+    {
+      "product": "P000127",
+      "line_id": 1,
+      "rate": 850.0
+    },
+    {
+      "product": "P000127",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000127",
+      "line_id": 4,
+      "rate": 240.0
+    },
+    {
+      "product": "P000128",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000128",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000129",
+      "line_id": 1,
+      "rate": 450.0
+    },
+    {
+      "product": "P000129",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000130",
+      "line_id": 1,
+      "rate": 550.0
+    },
+    {
+      "product": "P000131",
+      "line_id": 1,
+      "rate": 950.0
+    },
+    {
+      "product": "P000132",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000132",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000133",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000133",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000133",
+      "line_id": 5,
+      "rate": 750.0
+    },
+    {
+      "product": "P000134",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000134",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000135",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000136",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000136",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000136",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000137",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000138",
+      "line_id": 2,
+      "rate": 950.0
+    },
+    {
+      "product": "P000138",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000138",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000139",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000139",
+      "line_id": 4,
+      "rate": 390.0
+    },
+    {
+      "product": "P000140",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000140",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000141",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000141",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000142",
+      "line_id": 2,
+      "rate": 680.0
+    },
+    {
+      "product": "P000143",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000144",
+      "line_id": 3,
+      "rate": 530.0
+    },
+    {
+      "product": "P000145",
+      "line_id": 3,
+      "rate": 300.0
+    },
+    {
+      "product": "P000146",
+      "line_id": 3,
+      "rate": 410.0
+    },
+    {
+      "product": "P000147",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000148",
+      "line_id": 3,
+      "rate": 180.0
+    },
+    {
+      "product": "P000149",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000149",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000150",
+      "line_id": 3,
+      "rate": 540.0
+    },
+    {
+      "product": "P000150",
+      "line_id": 4,
+      "rate": 260.0
+    },
+    {
+      "product": "P000151",
+      "line_id": 2,
+      "rate": 600.0
+    },
+    {
+      "product": "P000151",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000152",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000152",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000153",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000153",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000153",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000154",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000155",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000155",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000155",
+      "line_id": 4,
+      "rate": 370.0
+    },
+    {
+      "product": "P000156",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000157",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000157",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000158",
+      "line_id": 3,
+      "rate": 510.0
+    },
+    {
+      "product": "P000158",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000159",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000160",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000161",
+      "line_id": 5,
+      "rate": 370.0
+    },
+    {
+      "product": "P000161",
+      "line_id": 6,
+      "rate": 70.0
+    },
+    {
+      "product": "P000162",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000163",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000163",
+      "line_id": 7,
+      "rate": 80.0
+    },
+    {
+      "product": "P000164",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000164",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000165",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000165",
+      "line_id": 6,
+      "rate": 120.0
+    },
+    {
+      "product": "P000165",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000166",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000166",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000166",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000167",
+      "line_id": 4,
+      "rate": 260.0
+    },
+    {
+      "product": "P000168",
+      "line_id": 3,
+      "rate": 700.0
+    },
+    {
+      "product": "P000168",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000168",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000169",
+      "line_id": 4,
+      "rate": 270.0
+    },
+    {
+      "product": "P000169",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000170",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000171",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000172",
+      "line_id": 4,
+      "rate": 170.0
+    },
+    {
+      "product": "P000173",
+      "line_id": 4,
+      "rate": 170.0
+    },
+    {
+      "product": "P000174",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000175",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000175",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000176",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000176",
+      "line_id": 4,
+      "rate": 400.0
+    },
+    {
+      "product": "P000177",
+      "line_id": 3,
+      "rate": 620.0
+    },
+    {
+      "product": "P000177",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000178",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000178",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000178",
+      "line_id": 5,
+      "rate": 580.0
+    },
+    {
+      "product": "P000179",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000180",
+      "line_id": 2,
+      "rate": 650.0
+    },
+    {
+      "product": "P000180",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000181",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000181",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000181",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000182",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000182",
+      "line_id": 3,
+      "rate": 630.0
+    },
+    {
+      "product": "P000182",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000183",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000183",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000184",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000184",
+      "line_id": 7,
+      "rate": 240.0
+    },
+    {
+      "product": "P000185",
+      "line_id": 5,
+      "rate": 480.0
+    },
+    {
+      "product": "P000186",
+      "line_id": 5,
+      "rate": 530.0
+    },
+    {
+      "product": "P000186",
+      "line_id": 7,
+      "rate": 250.0
+    },
+    {
+      "product": "P000187",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000187",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000188",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000189",
+      "line_id": 5,
+      "rate": 350.0
+    },
+    {
+      "product": "P000190",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000190",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000191",
+      "line_id": 2,
+      "rate": 580.0
+    },
+    {
+      "product": "P000191",
+      "line_id": 5,
+      "rate": 580.0
+    },
+    {
+      "product": "P000192",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000193",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000194",
+      "line_id": 7,
+      "rate": 80.0
+    },
+    {
+      "product": "P000195",
+      "line_id": 6,
+      "rate": 60.0
+    },
+    {
+      "product": "P000196",
+      "line_id": 6,
+      "rate": 100.0
+    },
+    {
+      "product": "P000201",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000201",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000201",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000202",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000202",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000203",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000204",
+      "line_id": 1,
+      "rate": 850.0
+    },
+    {
+      "product": "P000204",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000204",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000205",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000205",
+      "line_id": 4,
+      "rate": 850.0
+    },
+    {
+      "product": "P000205",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000206",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000206",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000206",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000207",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000207",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000207",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000208",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000208",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000208",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000209",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000209",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000209",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000210",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000210",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000210",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000211",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000211",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000212",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000212",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000212",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000213",
+      "line_id": 3,
+      "rate": 200.0
+    },
+    {
+      "product": "P000214",
+      "line_id": 2,
+      "rate": 1000.0
+    },
+    {
+      "product": "P000214",
+      "line_id": 3,
+      "rate": 800.0
+    },
+    {
+      "product": "P000214",
+      "line_id": 4,
+      "rate": 400.0
+    },
+    {
+      "product": "P000215",
+      "line_id": 4,
+      "rate": 380.0
+    },
+    {
+      "product": "P000215",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000216",
+      "line_id": 6,
+      "rate": 100.0
+    },
+    {
+      "product": "P000217",
+      "line_id": 5,
+      "rate": 550.0
+    },
+    {
+      "product": "P000217",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000218",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000219",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000220",
+      "line_id": 6,
+      "rate": 100.0
+    },
+    {
+      "product": "P000221",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000222",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000223",
+      "line_id": 2,
+      "rate": 860.0
+    },
+    {
+      "product": "P000223",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000223",
+      "line_id": 5,
+      "rate": 560.0
+    },
+    {
+      "product": "P000223",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000224",
+      "line_id": 2,
+      "rate": 860.0
+    },
+    {
+      "product": "P000224",
+      "line_id": 3,
+      "rate": 680.0
+    },
+    {
+      "product": "P000224",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000224",
+      "line_id": 5,
+      "rate": 550.0
+    },
+    {
+      "product": "P000225",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000226",
+      "line_id": 5,
+      "rate": 550.0
+    },
+    {
+      "product": "P000226",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000227",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000227",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000227",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000227",
+      "line_id": 5,
+      "rate": 520.0
+    },
+    {
+      "product": "P000227",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000228",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000228",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000228",
+      "line_id": 6,
+      "rate": 110.0
+    },
+    {
+      "product": "P000228",
+      "line_id": 7,
+      "rate": 210.0
+    },
+    {
+      "product": "P000229",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000230",
+      "line_id": 4,
+      "rate": 230.0
+    },
+    {
+      "product": "P000230",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000230",
+      "line_id": 7,
+      "rate": 230.0
+    },
+    {
+      "product": "P000231",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000231",
+      "line_id": 7,
+      "rate": 250.0
+    },
+    {
+      "product": "P000232",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000232",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000233",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000233",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000234",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000234",
+      "line_id": 7,
+      "rate": 250.0
+    },
+    {
+      "product": "P000235",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000235",
+      "line_id": 7,
+      "rate": 280.0
+    },
+    {
+      "product": "P000236",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000236",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000237",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000237",
+      "line_id": 7,
+      "rate": 120.0
+    },
+    {
+      "product": "P000238",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000238",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000239",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000239",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000240",
+      "line_id": 3,
+      "rate": 550.0
+    },
+    {
+      "product": "P000240",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000241",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000241",
+      "line_id": 7,
+      "rate": 600.0
+    },
+    {
+      "product": "P000242",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000242",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000243",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000243",
+      "line_id": 7,
+      "rate": 240.0
+    },
+    {
+      "product": "P000244",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000244",
+      "line_id": 7,
+      "rate": 240.0
+    },
+    {
+      "product": "P000245",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000245",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000246",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000246",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000246",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000247",
+      "line_id": 4,
+      "rate": 360.0
+    },
+    {
+      "product": "P000247",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000247",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000248",
+      "line_id": 4,
+      "rate": 240.0
+    },
+    {
+      "product": "P000248",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000249",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000249",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000250",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000250",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000250",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000251",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000251",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000252",
+      "line_id": 2,
+      "rate": 530.0
+    },
+    {
+      "product": "P000252",
+      "line_id": 3,
+      "rate": 400.0
+    },
+    {
+      "product": "P000252",
+      "line_id": 4,
+      "rate": 240.0
+    },
+    {
+      "product": "P000253",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000253",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000254",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000254",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000255",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000255",
+      "line_id": 7,
+      "rate": 110.0
+    },
+    {
+      "product": "P000256",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000256",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000257",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000257",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000258",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000258",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000259",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000259",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000260",
+      "line_id": 2,
+      "rate": 950.0
+    },
+    {
+      "product": "P000260",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000261",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000262",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000262",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000263",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000263",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000264",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000264",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000264",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000265",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000265",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000265",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000266",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000267",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000267",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000268",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000268",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000269",
+      "line_id": 2,
+      "rate": 650.0
+    },
+    {
+      "product": "P000269",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000270",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000270",
+      "line_id": 4,
+      "rate": 240.0
+    },
+    {
+      "product": "P000271",
+      "line_id": 2,
+      "rate": 680.0
+    },
+    {
+      "product": "P000271",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000272",
+      "line_id": 2,
+      "rate": 680.0
+    },
+    {
+      "product": "P000272",
+      "line_id": 4,
+      "rate": 260.0
+    },
+    {
+      "product": "P000273",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000273",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000274",
+      "line_id": 2,
+      "rate": 1050.0
+    },
+    {
+      "product": "P000275",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000275",
+      "line_id": 6,
+      "rate": 70.0
+    },
+    {
+      "product": "P000276",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000276",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000277",
+      "line_id": 2,
+      "rate": 600.0
+    },
+    {
+      "product": "P000277",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000278",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000279",
+      "line_id": 5,
+      "rate": 400.0
+    },
+    {
+      "product": "P000279",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000280",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000280",
+      "line_id": 3,
+      "rate": 550.0
+    },
+    {
+      "product": "P000280",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000281",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000281",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000282",
+      "line_id": 4,
+      "rate": 230.0
+    },
+    {
+      "product": "P000282",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000283",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000283",
+      "line_id": 7,
+      "rate": 160.0
+    },
+    {
+      "product": "P000284",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000284",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000285",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000285",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000286",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000286",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000287",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000287",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000288",
+      "line_id": 3,
+      "rate": 480.0
+    },
+    {
+      "product": "P000288",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000289",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000289",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000290",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000291",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000291",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000292",
+      "line_id": 3,
+      "rate": 480.0
+    },
+    {
+      "product": "P000292",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000293",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000293",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000294",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000294",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000295",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000295",
+      "line_id": 4,
+      "rate": 150.0
+    },
+    {
+      "product": "P000296",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000296",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000296",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000297",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000297",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000298",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000298",
+      "line_id": 7,
+      "rate": 120.0
+    },
+    {
+      "product": "P000299",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000299",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000300",
+      "line_id": 5,
+      "rate": 550.0
+    },
+    {
+      "product": "P000300",
+      "line_id": 7,
+      "rate": 120.0
+    },
+    {
+      "product": "P000301",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000301",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000302",
+      "line_id": 2,
+      "rate": 500.0
+    },
+    {
+      "product": "P000302",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000303",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000304",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000305",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000305",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000305",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000306",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000306",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000306",
+      "line_id": 4,
+      "rate": 370.0
+    },
+    {
+      "product": "P000307",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000307",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000308",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000308",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000309",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000309",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000310",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000310",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000311",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000311",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000311",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000312",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000313",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000314",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000314",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000315",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000315",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000316",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000316",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000317",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000317",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000318",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000318",
+      "line_id": 4,
+      "rate": 270.0
+    },
+    {
+      "product": "P000319",
+      "line_id": 2,
+      "rate": 900.0
+    },
+    {
+      "product": "P000319",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000320",
+      "line_id": 5,
+      "rate": 350.0
+    },
+    {
+      "product": "P000320",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000321",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000321",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000322",
+      "line_id": 7,
+      "rate": 120.0
+    },
+    {
+      "product": "P000323",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000323",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000324",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000324",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000325",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000325",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000326",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000326",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000327",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000327",
+      "line_id": 7,
+      "rate": 120.0
+    },
+    {
+      "product": "P000328",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000328",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000329",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000329",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000330",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000330",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000331",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000331",
+      "line_id": 4,
+      "rate": 150.0
+    },
+    {
+      "product": "P000332",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000332",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000333",
+      "line_id": 4,
+      "rate": 150.0
+    },
+    {
+      "product": "P000334",
+      "line_id": 4,
+      "rate": 120.0
+    },
+    {
+      "product": "P000335",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000335",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000336",
+      "line_id": 2,
+      "rate": 600.0
+    },
+    {
+      "product": "P000336",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000337",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000337",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000338",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000339",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000339",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000340",
+      "line_id": 2,
+      "rate": 540.0
+    },
+    {
+      "product": "P000340",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000341",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000342",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000342",
+      "line_id": 7,
+      "rate": 130.0
+    },
+    {
+      "product": "P000343",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000343",
+      "line_id": 7,
+      "rate": 250.0
+    },
+    {
+      "product": "P000344",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000345",
+      "line_id": 3,
+      "rate": 540.0
+    },
+    {
+      "product": "P000345",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000346",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000346",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000347",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000347",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000348",
+      "line_id": 4,
+      "rate": 120.0
+    },
+    {
+      "product": "P000348",
+      "line_id": 7,
+      "rate": 80.0
+    },
+    {
+      "product": "P000349",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000349",
+      "line_id": 7,
+      "rate": 500.0
+    },
+    {
+      "product": "P000350",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000350",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000351",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000352",
+      "line_id": 5,
+      "rate": 400.0
+    },
+    {
+      "product": "P000352",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000353",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000353",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000354",
+      "line_id": 1,
+      "rate": 550.0
+    },
+    {
+      "product": "P000354",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000355",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000355",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000356",
+      "line_id": 1,
+      "rate": 600.0
+    },
+    {
+      "product": "P000356",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000357",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000357",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000358",
+      "line_id": 1,
+      "rate": 1000.0
+    },
+    {
+      "product": "P000358",
+      "line_id": 2,
+      "rate": 1000.0
+    },
+    {
+      "product": "P000358",
+      "line_id": 3,
+      "rate": 750.0
+    },
+    {
+      "product": "P000358",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000359",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000360",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000361",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000362",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000363",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000364",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000364",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000365",
+      "line_id": 5,
+      "rate": 700.0
+    },
+    {
+      "product": "P000365",
+      "line_id": 7,
+      "rate": 300.0
+    },
+    {
+      "product": "P000366",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000366",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000367",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000367",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000368",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000368",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000369",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000369",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000370",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000370",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000371",
+      "line_id": 1,
+      "rate": 700.0
+    },
+    {
+      "product": "P000371",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000372",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000372",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000373",
+      "line_id": 1,
+      "rate": 500.0
+    },
+    {
+      "product": "P000373",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000374",
+      "line_id": 1,
+      "rate": 500.0
+    },
+    {
+      "product": "P000374",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000375",
+      "line_id": 1,
+      "rate": 500.0
+    },
+    {
+      "product": "P000375",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000376",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000376",
+      "line_id": 4,
+      "rate": 150.0
+    },
+    {
+      "product": "P000377",
+      "line_id": 1,
+      "rate": 700.0
+    },
+    {
+      "product": "P000377",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000377",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000378",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000378",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000379",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000379",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000380",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000380",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000381",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000381",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000382",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000382",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000383",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000383",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000384",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000384",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000385",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000385",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000386",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000387",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000387",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000388",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000388",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000389",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000389",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000390",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000391",
+      "line_id": 6,
+      "rate": 60.0
+    },
+    {
+      "product": "P000392",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000392",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000393",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000393",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000394",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000394",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000395",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000395",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000396",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000396",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000397",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000398",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000399",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000399",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000400",
+      "line_id": 3,
+      "rate": 680.0
+    },
+    {
+      "product": "P000401",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000402",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000402",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000403",
+      "line_id": 2,
+      "rate": 650.0
+    },
+    {
+      "product": "P000403",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000404",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000404",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000405",
+      "line_id": 2,
+      "rate": 580.0
+    },
+    {
+      "product": "P000405",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000405",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000406",
+      "line_id": 2,
+      "rate": 600.0
+    },
+    {
+      "product": "P000406",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000407",
+      "line_id": 2,
+      "rate": 500.0
+    },
+    {
+      "product": "P000407",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000408",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000408",
+      "line_id": 6,
+      "rate": 100.0
+    },
+    {
+      "product": "P000409",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000409",
+      "line_id": 6,
+      "rate": 80.0
+    },
+    {
+      "product": "P000410",
+      "line_id": 1,
+      "rate": 610.0
+    },
+    {
+      "product": "P000410",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000410",
+      "line_id": 5,
+      "rate": 550.0
+    },
+    {
+      "product": "P000411",
+      "line_id": 1,
+      "rate": 600.0
+    },
+    {
+      "product": "P000411",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000411",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000412",
+      "line_id": 1,
+      "rate": 750.0
+    },
+    {
+      "product": "P000412",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000412",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000413",
+      "line_id": 1,
+      "rate": 750.0
+    },
+    {
+      "product": "P000414",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000415",
+      "line_id": 3,
+      "rate": 680.0
+    },
+    {
+      "product": "P000416",
+      "line_id": 5,
+      "rate": 550.0
+    },
+    {
+      "product": "P000417",
+      "line_id": 1,
+      "rate": 700.0
+    },
+    {
+      "product": "P000418",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000418",
+      "line_id": 7,
+      "rate": 130.0
+    },
+    {
+      "product": "P000419",
+      "line_id": 2,
+      "rate": 600.0
+    },
+    {
+      "product": "P000419",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000420",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000420",
+      "line_id": 5,
+      "rate": 600.0
+    },
+    {
+      "product": "P000421",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000422",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000423",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000423",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000424",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000424",
+      "line_id": 4,
+      "rate": 100.0
+    },
+    {
+      "product": "P000425",
+      "line_id": 1,
+      "rate": 900.0
+    },
+    {
+      "product": "P000425",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000426",
+      "line_id": 1,
+      "rate": 300.0
+    },
+    {
+      "product": "P000427",
+      "line_id": 1,
+      "rate": 400.0
+    },
+    {
+      "product": "P000428",
+      "line_id": 3,
+      "rate": 150.0
+    },
+    {
+      "product": "P000429",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000430",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000431",
+      "line_id": 3,
+      "rate": 300.0
+    },
+    {
+      "product": "P000431",
+      "line_id": 5,
+      "rate": 300.0
+    },
+    {
+      "product": "P000432",
+      "line_id": 2,
+      "rate": 500.0
+    },
+    {
+      "product": "P000432",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000433",
+      "line_id": 1,
+      "rate": 400.0
+    },
+    {
+      "product": "P000434",
+      "line_id": 5,
+      "rate": 520.0
+    },
+    {
+      "product": "P000434",
+      "line_id": 7,
+      "rate": 230.0
+    },
+    {
+      "product": "P000435",
+      "line_id": 4,
+      "rate": 240.0
+    },
+    {
+      "product": "P000436",
+      "line_id": 4,
+      "rate": 260.0
+    },
+    {
+      "product": "P000436",
+      "line_id": 7,
+      "rate": 130.0
+    },
+    {
+      "product": "P000437",
+      "line_id": 2,
+      "rate": 870.0
+    },
+    {
+      "product": "P000437",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000438",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000439",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000440",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000440",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000441",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000441",
+      "line_id": 4,
+      "rate": 260.0
+    },
+    {
+      "product": "P000442",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000442",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000443",
+      "line_id": 6,
+      "rate": 60.0
+    },
+    {
+      "product": "P000444",
+      "line_id": 6,
+      "rate": 60.0
+    },
+    {
+      "product": "P000445",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000445",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000445",
+      "line_id": 5,
+      "rate": 480.0
+    },
+    {
+      "product": "P000448",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000449",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000450",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000450",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000450",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000451",
+      "line_id": 4,
+      "rate": 260.0
+    },
+    {
+      "product": "P000451",
+      "line_id": 7,
+      "rate": 160.0
+    },
+    {
+      "product": "P000452",
+      "line_id": 3,
+      "rate": 550.0
+    },
+    {
+      "product": "P000452",
+      "line_id": 4,
+      "rate": 340.0
+    },
+    {
+      "product": "P000452",
+      "line_id": 5,
+      "rate": 410.0
+    },
+    {
+      "product": "P000452",
+      "line_id": 7,
+      "rate": 130.0
+    },
+    {
+      "product": "P000453",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000453",
+      "line_id": 4,
+      "rate": 330.0
+    },
+    {
+      "product": "P000453",
+      "line_id": 5,
+      "rate": 480.0
+    },
+    {
+      "product": "P000454",
+      "line_id": 2,
+      "rate": 500.0
+    },
+    {
+      "product": "P000454",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000454",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000455",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000456",
+      "line_id": 2,
+      "rate": 500.0
+    },
+    {
+      "product": "P000456",
+      "line_id": 4,
+      "rate": 240.0
+    },
+    {
+      "product": "P000456",
+      "line_id": 7,
+      "rate": 140.0
+    },
+    {
+      "product": "P000457",
+      "line_id": 3,
+      "rate": 580.0
+    },
+    {
+      "product": "P000458",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000459",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000459",
+      "line_id": 7,
+      "rate": 180.0
+    },
+    {
+      "product": "P000460",
+      "line_id": 1,
+      "rate": 720.0
+    },
+    {
+      "product": "P000460",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000460",
+      "line_id": 5,
+      "rate": 450.0
+    },
+    {
+      "product": "P000460",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000461",
+      "line_id": 5,
+      "rate": 370.0
+    },
+    {
+      "product": "P000461",
+      "line_id": 6,
+      "rate": 70.0
+    },
+    {
+      "product": "P000462",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000462",
+      "line_id": 5,
+      "rate": 510.0
+    },
+    {
+      "product": "P000463",
+      "line_id": 7,
+      "rate": 220.0
+    },
+    {
+      "product": "P000465",
+      "line_id": 5,
+      "rate": 100.0
+    },
+    {
+      "product": "P000466",
+      "line_id": 1,
+      "rate": 750.0
+    },
+    {
+      "product": "P000466",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000467",
+      "line_id": 4,
+      "rate": 220.0
+    },
+    {
+      "product": "P000467",
+      "line_id": 7,
+      "rate": 160.0
+    },
+    {
+      "product": "P000468",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000468",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000469",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000469",
+      "line_id": 5,
+      "rate": 500.0
+    },
+    {
+      "product": "P000470",
+      "line_id": 1,
+      "rate": 850.0
+    },
+    {
+      "product": "P000470",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000471",
+      "line_id": 1,
+      "rate": 850.0
+    },
+    {
+      "product": "P000472",
+      "line_id": 1,
+      "rate": 800.0
+    },
+    {
+      "product": "P000473",
+      "line_id": 5,
+      "rate": 360.0
+    },
+    {
+      "product": "P000473",
+      "line_id": 7,
+      "rate": 150.0
+    },
+    {
+      "product": "P000475",
+      "line_id": 2,
+      "rate": 750.0
+    },
+    {
+      "product": "P000475",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000475",
+      "line_id": 7,
+      "rate": 200.0
+    },
+    {
+      "product": "P000476",
+      "line_id": 5,
+      "rate": 550.0
+    },
+    {
+      "product": "P000476",
+      "line_id": 7,
+      "rate": 240.0
+    },
+    {
+      "product": "P000477",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000478",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000479",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000479",
+      "line_id": 7,
+      "rate": 190.0
+    },
+    {
+      "product": "P000480",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000481",
+      "line_id": 3,
+      "rate": 150.0
+    },
+    {
+      "product": "P000482",
+      "line_id": 2,
+      "rate": 500.0
+    },
+    {
+      "product": "P000483",
+      "line_id": 6,
+      "rate": 110.0
+    },
+    {
+      "product": "P000484",
+      "line_id": 6,
+      "rate": 100.0
+    },
+    {
+      "product": "P000485",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000485",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000489",
+      "line_id": 2,
+      "rate": 600.0
+    },
+    {
+      "product": "P000489",
+      "line_id": 4,
+      "rate": 180.0
+    },
+    {
+      "product": "P000490",
+      "line_id": 4,
+      "rate": 320.0
+    },
+    {
+      "product": "P000492",
+      "line_id": 5,
+      "rate": 280.0
+    },
+    {
+      "product": "P000493",
+      "line_id": 2,
+      "rate": 450.0
+    },
+    {
+      "product": "P000494",
+      "line_id": 2,
+      "rate": 700.0
+    },
+    {
+      "product": "P000494",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000495",
+      "line_id": 3,
+      "rate": 650.0
+    },
+    {
+      "product": "P000495",
+      "line_id": 4,
+      "rate": 350.0
+    },
+    {
+      "product": "P000496",
+      "line_id": 5,
+      "rate": 350.0
+    },
+    {
+      "product": "P000497",
+      "line_id": 2,
+      "rate": 800.0
+    },
+    {
+      "product": "P000497",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000499",
+      "line_id": 4,
+      "rate": 250.0
+    },
+    {
+      "product": "P000500",
+      "line_id": 5,
+      "rate": 620.0
+    },
+    {
+      "product": "P000501",
+      "line_id": 5,
+      "rate": 640.0
+    },
+    {
+      "product": "P000502",
+      "line_id": 4,
+      "rate": 300.0
+    },
+    {
+      "product": "P000503",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000504",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000505",
+      "line_id": 3,
+      "rate": 600.0
+    },
+    {
+      "product": "P000506",
+      "line_id": 4,
+      "rate": 240.0
+    },
+    {
+      "product": "P000507",
+      "line_id": 5,
+      "rate": 470.0
+    },
+    {
+      "product": "P000509",
+      "line_id": 3,
+      "rate": 500.0
+    },
+    {
+      "product": "P000509",
+      "line_id": 4,
+      "rate": 280.0
+    },
+    {
+      "product": "P000510",
+      "line_id": 4,
+      "rate": 100.0
+    },
+    {
+      "product": "P000510",
+      "line_id": 5,
+      "rate": 250.0
+    },
+    {
+      "product": "P000511",
+      "line_id": 2,
+      "rate": 400.0
+    },
+    {
+      "product": "P000512",
+      "line_id": 2,
+      "rate": 850.0
+    },
+    {
+      "product": "P000513",
+      "line_id": 4,
+      "rate": 200.0
+    },
+    {
+      "product": "P000514",
+      "line_id": 4,
+      "rate": 180.0
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "78",
+      "product": "P000058",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-06T00:00:00",
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "45",
+      "product": "P000136",
+      "quantity": 3000.0,
+      "color": "Black",
+      "base": "M000011",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-01-05T14:00:00"
+    },
+    {
+      "order_id": "35",
+      "product": "P000001",
+      "quantity": 25000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": "2021-01-18T00:00:00",
+      "due": "2021-01-25T14:00:00"
+    },
+    {
+      "order_id": "95",
+      "product": "P000158",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "135",
+      "product": "P000186",
+      "quantity": 8000.0,
+      "color": "Natural",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "112",
+      "product": "P000171",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000001",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "23",
+      "product": "P000046",
+      "quantity": 7000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 10.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "41",
+      "product": "P000039",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "128",
+      "product": "P000073",
+      "quantity": 300.0,
+      "color": "Natural",
+      "base": "M000001",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "94",
+      "product": "P000157",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "55",
+      "product": "P000039",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": "2021-01-22T00:00:00",
+      "due": "2021-01-30T14:00:00"
+    },
+    {
+      "order_id": "50",
+      "product": "P000048",
+      "quantity": 15000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": "2021-01-04T00:00:00",
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "147",
+      "product": "P000195",
+      "quantity": 1200.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-06T14:00:00"
+    },
+    {
+      "order_id": "129",
+      "product": "P000183",
+      "quantity": 9000.0,
+      "color": "Natural",
+      "base": "M000001",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "65",
+      "product": "P000088",
+      "quantity": 9000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "61",
+      "product": "P000057",
+      "quantity": 50000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": "2021-01-11T00:00:00",
+      "due": "2021-01-12T14:00:00"
+    },
+    {
+      "order_id": "92",
+      "product": "P000060",
+      "quantity": 3500.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "134",
+      "product": "P000102",
+      "quantity": 2000.0,
+      "color": "Natural",
+      "base": "M000015",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": "2021-01-04T00:00:00",
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "62",
+      "product": "P000036",
+      "quantity": 10000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-30T14:00:00"
+    },
+    {
+      "order_id": "51",
+      "product": "P000139",
+      "quantity": 10000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "117",
+      "product": "P000176",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 45.0,
+      "arrival": null,
+      "due": "2021-05-03T14:00:00"
+    },
+    {
+      "order_id": "160",
+      "product": "P000002",
+      "quantity": 2000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-12T14:00:00"
+    },
+    {
+      "order_id": "119",
+      "product": "P000052",
+      "quantity": 4000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 35.0,
+      "arrival": "2021-01-11T00:00:00",
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "58",
+      "product": "P000049",
+      "quantity": 8000.0,
+      "color": "Black",
+      "base": "M000011",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-22T14:00:00"
+    },
+    {
+      "order_id": "151",
+      "product": "P000202",
+      "quantity": 200.0,
+      "color": "Natural",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2020-09-21T14:00:00"
+    },
+    {
+      "order_id": "13",
+      "product": "P000010",
+      "quantity": 22000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": "2021-01-10T00:00:00",
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "8",
+      "product": "P000127",
+      "quantity": 10000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "44",
+      "product": "P000135",
+      "quantity": 14000.0,
+      "color": "Black",
+      "base": "M000011",
+      "halogen": 0,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-01-06T14:00:00"
+    },
+    {
+      "order_id": "49",
+      "product": "P000048",
+      "quantity": 10000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "66",
+      "product": "P000057",
+      "quantity": 25000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "114",
+      "product": "P000173",
+      "quantity": 500.0,
+      "color": "Dark Gray",
+      "base": "M000001",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-11T00:00:00",
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "4",
+      "product": "P000046",
+      "quantity": 7000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 10.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "102",
+      "product": "P000164",
+      "quantity": 5000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "152",
+      "product": "P000032",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2020-12-15T14:00:00"
+    },
+    {
+      "order_id": "18",
+      "product": "P000131",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 35.0,
+      "arrival": null,
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "133",
+      "product": "P000185",
+      "quantity": 500.0,
+      "color": "Natural",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 21.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "27",
+      "product": "P000133",
+      "quantity": 6000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "120",
+      "product": "P000178",
+      "quantity": 2000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "138",
+      "product": "P000189",
+      "quantity": 2000.0,
+      "color": "Natural",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "156",
+      "product": "P000205",
+      "quantity": 2000.0,
+      "color": "Black",
+      "base": "M000011",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-11T00:00:00",
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "111",
+      "product": "P000170",
+      "quantity": 3000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 1,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-09T14:00:00"
+    },
+    {
+      "order_id": "104",
+      "product": "P000165",
+      "quantity": 3000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "118",
+      "product": "P000177",
+      "quantity": 800.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 25.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "141",
+      "product": "P000192",
+      "quantity": 1000.0,
+      "color": "Natural",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 50.0,
+      "arrival": null,
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "121",
+      "product": "P000179",
+      "quantity": 1000.0,
+      "color": "Dark Gray",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "71",
+      "product": "P000027",
+      "quantity": 11050.0,
+      "color": "Black",
+      "base": "M000009",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 18.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "59",
+      "product": "P000142",
+      "quantity": 20000.0,
+      "color": "Natural",
+      "base": "M000009",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 62.0,
+      "arrival": "2021-01-18T00:00:00",
+      "due": "2021-01-20T14:00:00"
+    },
+    {
+      "order_id": "126",
+      "product": "P000086",
+      "quantity": 21000.0,
+      "color": "Black",
+      "base": "M000018",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "48",
+      "product": "P000035",
+      "quantity": 25000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "81",
+      "product": "P000149",
+      "quantity": 600.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 50.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "106",
+      "product": "P000257",
+      "quantity": 3500.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-13T14:00:00"
+    },
+    {
+      "order_id": "14",
+      "product": "P000129",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-09T00:00:00",
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "130",
+      "product": "P000184",
+      "quantity": 2000.0,
+      "color": "Natural",
+      "base": "M000001",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 25.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "76",
+      "product": "P000029",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000009",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-01-20T14:00:00"
+    },
+    {
+      "order_id": "131",
+      "product": "P000017",
+      "quantity": 4000.0,
+      "color": "Natural",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "113",
+      "product": "P000172",
+      "quantity": 200.0,
+      "color": "Black",
+      "base": "M000001",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-11T00:00:00",
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "132",
+      "product": "P000089",
+      "quantity": 15000.0,
+      "color": "Natural",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-05T00:00:00",
+      "due": "2021-01-12T14:00:00"
+    },
+    {
+      "order_id": "144",
+      "product": "P000194",
+      "quantity": 250.0,
+      "color": "Natural",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 50.0,
+      "arrival": null,
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "150",
+      "product": "P000201",
+      "quantity": 6000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "7",
+      "product": "P000126",
+      "quantity": 8000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "136",
+      "product": "P000187",
+      "quantity": 1000.0,
+      "color": "Natural",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-01-25T14:00:00"
+    },
+    {
+      "order_id": "17",
+      "product": "P000001",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2020-11-30T14:00:00"
+    },
+    {
+      "order_id": "161",
+      "product": "P000001",
+      "quantity": 4000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-12T14:00:00"
+    },
+    {
+      "order_id": "154",
+      "product": "P000204",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 35.0,
+      "arrival": null,
+      "due": "2020-12-29T14:00:00"
+    },
+    {
+      "order_id": "1",
+      "product": "P000021",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 40.0,
+      "arrival": "2021-01-11T00:00:00",
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "140",
+      "product": "P000191",
+      "quantity": 5500.0,
+      "color": "Natural",
+      "base": "M000009",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "56",
+      "product": "P000039",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": "2021-01-28T00:00:00",
+      "due": "2021-02-06T14:00:00"
+    },
+    {
+      "order_id": "15",
+      "product": "P000130",
+      "quantity": 2000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 22.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "25",
+      "product": "P000065",
+      "quantity": 3000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-30T14:00:00"
+    },
+    {
+      "order_id": "20",
+      "product": "P000074",
+      "quantity": 15000.0,
+      "color": "Black",
+      "base": "M000013",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-06T00:00:00",
+      "due": "2021-01-09T14:00:00"
+    },
+    {
+      "order_id": "91",
+      "product": "P000155",
+      "quantity": 3000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 35.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "101",
+      "product": "P000163",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-13T14:00:00"
+    },
+    {
+      "order_id": "124",
+      "product": "P000182",
+      "quantity": 2000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-02-24T14:00:00"
+    },
+    {
+      "order_id": "127",
+      "product": "P000022",
+      "quantity": 12300.0,
+      "color": "Black",
+      "base": "M000001",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2020-12-29T14:00:00"
+    },
+    {
+      "order_id": "38",
+      "product": "P000078",
+      "quantity": 3125.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 12.0,
+      "arrival": null,
+      "due": "2021-01-18T14:00:00"
+    },
+    {
+      "order_id": "107",
+      "product": "P000166",
+      "quantity": 2000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "125",
+      "product": "P000119",
+      "quantity": 400.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "158",
+      "product": "P000016",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "93",
+      "product": "P000156",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 0,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "52",
+      "product": "P000056",
+      "quantity": 9000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "64",
+      "product": "P000071",
+      "quantity": 10000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-30T14:00:00"
+    },
+    {
+      "order_id": "86",
+      "product": "P000152",
+      "quantity": 2500.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "159",
+      "product": "P000003",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000011",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-12T14:00:00"
+    },
+    {
+      "order_id": "47",
+      "product": "P000138",
+      "quantity": 3000.0,
+      "color": "Black",
+      "base": "M000012",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-09T14:00:00"
+    },
+    {
+      "order_id": "123",
+      "product": "P000181",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-26T14:00:00"
+    },
+    {
+      "order_id": "153",
+      "product": "P000203",
+      "quantity": 200.0,
+      "color": "Natural",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 25.0,
+      "arrival": null,
+      "due": "2020-12-23T14:00:00"
+    },
+    {
+      "order_id": "103",
+      "product": "P000164",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "11",
+      "product": "P000090",
+      "quantity": 30000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-05T00:00:00",
+      "due": "2021-01-12T14:00:00"
+    },
+    {
+      "order_id": "0",
+      "product": "P000125",
+      "quantity": 8000.0,
+      "color": "Natural",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2020-12-30T14:00:00"
+    },
+    {
+      "order_id": "63",
+      "product": "P000035",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": "2021-01-28T00:00:00",
+      "due": "2021-02-08T14:00:00"
+    },
+    {
+      "order_id": "33",
+      "product": "P000005",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": "2021-01-22T00:00:00",
+      "due": "2021-01-31T14:00:00"
+    },
+    {
+      "order_id": "88",
+      "product": "P000153",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "12",
+      "product": "P000126",
+      "quantity": 10000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "98",
+      "product": "P000161",
+      "quantity": 8000.0,
+      "color": "Natural",
+      "base": "M000006",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-18T14:00:00"
+    },
+    {
+      "order_id": "67",
+      "product": "P000024",
+      "quantity": 6125.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "90",
+      "product": "P000154",
+      "quantity": 3000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "39",
+      "product": "P000127",
+      "quantity": 10000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-02-18T14:00:00"
+    },
+    {
+      "order_id": "74",
+      "product": "P000148",
+      "quantity": 9200.0,
+      "color": "Natural",
+      "base": "M000009",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2020-12-28T14:00:00"
+    },
+    {
+      "order_id": "75",
+      "product": "P000029",
+      "quantity": 12000.0,
+      "color": "Black",
+      "base": "M000009",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2020-12-28T14:00:00"
+    },
+    {
+      "order_id": "36",
+      "product": "P000001",
+      "quantity": 30000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": "2021-01-28T00:00:00",
+      "due": "2021-02-05T14:00:00"
+    },
+    {
+      "order_id": "83",
+      "product": "P000144",
+      "quantity": 8000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-25T14:00:00"
+    },
+    {
+      "order_id": "69",
+      "product": "P000145",
+      "quantity": 9700.0,
+      "color": "Black",
+      "base": "M000009",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "30",
+      "product": "P000007",
+      "quantity": 4000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 21.0,
+      "arrival": null,
+      "due": "2021-01-18T14:00:00"
+    },
+    {
+      "order_id": "28",
+      "product": "P000055",
+      "quantity": 7000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "24",
+      "product": "P000095",
+      "quantity": 5250.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-20T14:00:00"
+    },
+    {
+      "order_id": "108",
+      "product": "P000167",
+      "quantity": 1500.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "149",
+      "product": "P000196",
+      "quantity": 2000.0,
+      "color": "Black",
+      "base": "M000017",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2020-12-07T14:00:00"
+    },
+    {
+      "order_id": "57",
+      "product": "P000141",
+      "quantity": 7000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-25T14:00:00"
+    },
+    {
+      "order_id": "89",
+      "product": "P000121",
+      "quantity": 3200.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "115",
+      "product": "P000174",
+      "quantity": 2000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 1,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2021-01-29T14:00:00"
+    },
+    {
+      "order_id": "32",
+      "product": "P000005",
+      "quantity": 15000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": "2021-01-11T00:00:00",
+      "due": "2021-01-20T14:00:00"
+    },
+    {
+      "order_id": "80",
+      "product": "P000008",
+      "quantity": 3000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-25T14:00:00"
+    },
+    {
+      "order_id": "137",
+      "product": "P000188",
+      "quantity": 1000.0,
+      "color": "Natural",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-13T14:00:00"
+    },
+    {
+      "order_id": "53",
+      "product": "P000140",
+      "quantity": 12000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": "2021-01-10T00:00:00",
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "148",
+      "product": "P000040",
+      "quantity": 1550.0,
+      "color": "Yellow",
+      "base": "M000004",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "16",
+      "product": "P000065",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-22T14:00:00"
+    },
+    {
+      "order_id": "70",
+      "product": "P000027",
+      "quantity": 5000.0,
+      "color": "Black",
+      "base": "M000009",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 18.0,
+      "arrival": null,
+      "due": "2020-12-31T14:00:00"
+    },
+    {
+      "order_id": "99",
+      "product": "P000162",
+      "quantity": 4000.0,
+      "color": "Yellow",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "72",
+      "product": "P000146",
+      "quantity": 5000.0,
+      "color": "Black",
+      "base": "M000018",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-18T14:00:00"
+    },
+    {
+      "order_id": "79",
+      "product": "P000053",
+      "quantity": 4000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-19T00:00:00",
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "87",
+      "product": "P000077",
+      "quantity": 300.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "21",
+      "product": "P000132",
+      "quantity": 1500.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 21.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "9",
+      "product": "P000005",
+      "quantity": 15000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "157",
+      "product": "P000078",
+      "quantity": 1875.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 12.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "97",
+      "product": "P000160",
+      "quantity": 600.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2020-12-31T14:00:00"
+    },
+    {
+      "order_id": "116",
+      "product": "P000175",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-29T14:00:00"
+    },
+    {
+      "order_id": "84",
+      "product": "P000151",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000010",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 60.0,
+      "arrival": null,
+      "due": "2021-01-05T14:00:00"
+    },
+    {
+      "order_id": "73",
+      "product": "P000147",
+      "quantity": 5000.0,
+      "color": "Dark Gray",
+      "base": "M000005",
+      "halogen": 0,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "31",
+      "product": "P000054",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-31T14:00:00"
+    },
+    {
+      "order_id": "82",
+      "product": "P000150",
+      "quantity": 18000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "6",
+      "product": "P000090",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-05T14:00:00"
+    },
+    {
+      "order_id": "85",
+      "product": "P000051",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 1,
+      "filler": "G",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-06T14:00:00"
+    },
+    {
+      "order_id": "3",
+      "product": "P000005",
+      "quantity": 16000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "143",
+      "product": "P000194",
+      "quantity": 500.0,
+      "color": "Natural",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 50.0,
+      "arrival": null,
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "122",
+      "product": "P000180",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000009",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 31.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "42",
+      "product": "P000039",
+      "quantity": 13000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "40",
+      "product": "P000039",
+      "quantity": 17000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "2",
+      "product": "P000001",
+      "quantity": 10000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-04T14:00:00"
+    },
+    {
+      "order_id": "22",
+      "product": "P000114",
+      "quantity": 5000.0,
+      "color": "Dark Gray",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 15.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "34",
+      "product": "P000001",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": "2021-01-11T00:00:00",
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "60",
+      "product": "P000143",
+      "quantity": 4000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": "2021-01-15T00:00:00",
+      "due": "2021-01-22T14:00:00"
+    },
+    {
+      "order_id": "96",
+      "product": "P000159",
+      "quantity": 200.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "77",
+      "product": "P000058",
+      "quantity": 10000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": "2021-01-06T00:00:00",
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "5",
+      "product": "P000092",
+      "quantity": 600.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 10.0,
+      "arrival": null,
+      "due": "2021-01-08T14:00:00"
+    },
+    {
+      "order_id": "43",
+      "product": "P000021",
+      "quantity": 35000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-06T14:00:00"
+    },
+    {
+      "order_id": "142",
+      "product": "P000193",
+      "quantity": 3500.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "GL",
+      "filler_ratio": 50.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "54",
+      "product": "P000039",
+      "quantity": 20000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-20T14:00:00"
+    },
+    {
+      "order_id": "145",
+      "product": "P000082",
+      "quantity": 12000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "GL",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "155",
+      "product": "P000083",
+      "quantity": 6700.0,
+      "color": "Black",
+      "base": "M000011",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 20.0,
+      "arrival": null,
+      "due": "2020-12-31T14:00:00"
+    },
+    {
+      "order_id": "68",
+      "product": "P000144",
+      "quantity": 8000.0,
+      "color": "Black",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "46",
+      "product": "P000137",
+      "quantity": 8000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "110",
+      "product": "P000169",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "19",
+      "product": "P000074",
+      "quantity": 5000.0,
+      "color": "Black",
+      "base": "M000013",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-11T14:00:00"
+    },
+    {
+      "order_id": "139",
+      "product": "P000190",
+      "quantity": 500.0,
+      "color": "Natural",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-13T14:00:00"
+    },
+    {
+      "order_id": "37",
+      "product": "P000134",
+      "quantity": 500.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "M",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-02-01T14:00:00"
+    },
+    {
+      "order_id": "29",
+      "product": "P000055",
+      "quantity": 2000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-27T14:00:00"
+    },
+    {
+      "order_id": "109",
+      "product": "P000168",
+      "quantity": 3000.0,
+      "color": "Black",
+      "base": "M000008",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-14T14:00:00"
+    },
+    {
+      "order_id": "10",
+      "product": "P000128",
+      "quantity": 8000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "146",
+      "product": "P000082",
+      "quantity": 6500.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "GL",
+      "filler_ratio": 40.0,
+      "arrival": null,
+      "due": "2021-01-15T14:00:00"
+    },
+    {
+      "order_id": "26",
+      "product": "P000034",
+      "quantity": 6000.0,
+      "color": "Black",
+      "base": "M000007",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-30T14:00:00"
+    },
+    {
+      "order_id": "100",
+      "product": "P000117",
+      "quantity": 1000.0,
+      "color": "Black",
+      "base": "M000002",
+      "halogen": 2,
+      "filler": "None",
+      "filler_ratio": 0.0,
+      "arrival": null,
+      "due": "2021-01-13T14:00:00"
+    },
+    {
+      "order_id": "105",
+      "product": "P000106",
+      "quantity": 1000.0,
+      "color": "Natural",
+      "base": "M000005",
+      "halogen": 2,
+      "filler": "G",
+      "filler_ratio": 30.0,
+      "arrival": null,
+      "due": "2021-01-13T14:00:00"
+    }
+  ],
+  "base_score": {
+    "M000001": {
+      "M000001": 100.0,
+      "M000002": 90.0,
+      "M000003": 90.0,
+      "M000004": 90.0,
+      "M000005": 90.0,
+      "M000006": 90.0,
+      "M000007": 99.0,
+      "M000008": 98.0,
+      "M000009": 98.0,
+      "M000010": 92.0,
+      "M000011": 98.0,
+      "M000012": 98.0,
+      "M000013": 90.0,
+      "M000014": 99.0,
+      "M000015": 99.0,
+      "M000016": 89.0,
+      "M000017": 99.0,
+      "M000018": 99.0,
+      "M000019": 89.0,
+      "M000020": 89.0
+    },
+    "M000002": {
+      "M000001": 96.0,
+      "M000002": 100.0,
+      "M000003": 98.0,
+      "M000004": 99.0,
+      "M000005": 97.0,
+      "M000006": 98.0,
+      "M000007": 96.0,
+      "M000008": 96.0,
+      "M000009": 94.0,
+      "M000010": 99.0,
+      "M000011": 94.0,
+      "M000012": 96.0,
+      "M000013": 98.0,
+      "M000014": 95.0,
+      "M000015": 95.0,
+      "M000016": 96.0,
+      "M000017": 95.0,
+      "M000018": 95.0,
+      "M000019": 99.0,
+      "M000020": 97.0
+    },
+    "M000003": {
+      "M000001": 95.0,
+      "M000002": 99.0,
+      "M000003": 100.0,
+      "M000004": 98.0,
+      "M000005": 96.0,
+      "M000006": 97.0,
+      "M000007": 95.0,
+      "M000008": 95.0,
+      "M000009": 93.0,
+      "M000010": 98.0,
+      "M000011": 93.0,
+      "M000012": 95.0,
+      "M000013": 97.0,
+      "M000014": 94.0,
+      "M000015": 94.0,
+      "M000016": 95.0,
+      "M000017": 94.0,
+      "M000018": 94.0,
+      "M000019": 98.0,
+      "M000020": 96.0
+    },
+    "M000004": {
+      "M000001": 94.0,
+      "M000002": 98.0,
+      "M000003": 99.0,
+      "M000004": 100.0,
+      "M000005": 95.0,
+      "M000006": 96.0,
+      "M000007": 94.0,
+      "M000008": 94.0,
+      "M000009": 92.0,
+      "M000010": 97.0,
+      "M000011": 92.0,
+      "M000012": 94.0,
+      "M000013": 96.0,
+      "M000014": 93.0,
+      "M000015": 93.0,
+      "M000016": 94.0,
+      "M000017": 93.0,
+      "M000018": 93.0,
+      "M000019": 97.0,
+      "M000020": 95.0
+    },
+    "M000005": {
+      "M000001": 93.0,
+      "M000002": 97.0,
+      "M000003": 97.0,
+      "M000004": 97.0,
+      "M000005": 100.0,
+      "M000006": 95.0,
+      "M000007": 93.0,
+      "M000008": 93.0,
+      "M000009": 91.0,
+      "M000010": 96.0,
+      "M000011": 91.0,
+      "M000012": 93.0,
+      "M000013": 95.0,
+      "M000014": 92.0,
+      "M000015": 92.0,
+      "M000016": 98.0,
+      "M000017": 92.0,
+      "M000018": 92.0,
+      "M000019": 96.0,
+      "M000020": 94.0
+    },
+    "M000006": {
+      "M000001": 90.0,
+      "M000002": 94.0,
+      "M000003": 94.0,
+      "M000004": 94.0,
+      "M000005": 94.0,
+      "M000006": 100.0,
+      "M000007": 90.0,
+      "M000008": 90.0,
+      "M000009": 88.0,
+      "M000010": 94.0,
+      "M000011": 99.0,
+      "M000012": 89.0,
+      "M000013": 94.0,
+      "M000014": 89.0,
+      "M000015": 89.0,
+      "M000016": 93.0,
+      "M000017": 89.0,
+      "M000018": 89.0,
+      "M000019": 93.0,
+      "M000020": 93.0
+    },
+    "M000007": {
+      "M000001": 99.0,
+      "M000002": 89.0,
+      "M000003": 89.0,
+      "M000004": 89.0,
+      "M000005": 89.0,
+      "M000006": 89.0,
+      "M000007": 100.0,
+      "M000008": 97.0,
+      "M000009": 97.0,
+      "M000010": 91.0,
+      "M000011": 97.0,
+      "M000012": 97.0,
+      "M000013": 89.0,
+      "M000014": 98.0,
+      "M000015": 98.0,
+      "M000016": 88.0,
+      "M000017": 98.0,
+      "M000018": 98.0,
+      "M000019": 88.0,
+      "M000020": 88.0
+    },
+    "M000008": {
+      "M000001": 98.0,
+      "M000002": 88.0,
+      "M000003": 88.0,
+      "M000004": 88.0,
+      "M000005": 88.0,
+      "M000006": 88.0,
+      "M000007": 98.0,
+      "M000008": 100.0,
+      "M000009": 96.0,
+      "M000010": 90.0,
+      "M000011": 96.0,
+      "M000012": 99.0,
+      "M000013": 92.0,
+      "M000014": 97.0,
+      "M000015": 97.0,
+      "M000016": 91.0,
+      "M000017": 97.0,
+      "M000018": 97.0,
+      "M000019": 91.0,
+      "M000020": 91.0
+    },
+    "M000009": {
+      "M000001": 88.0,
+      "M000002": 92.0,
+      "M000003": 92.0,
+      "M000004": 92.0,
+      "M000005": 92.0,
+      "M000006": 92.0,
+      "M000007": 88.0,
+      "M000008": 88.0,
+      "M000009": 100.0,
+      "M000010": 88.0,
+      "M000011": 88.0,
+      "M000012": 87.0,
+      "M000013": 88.0,
+      "M000014": 87.0,
+      "M000015": 87.0,
+      "M000016": 87.0,
+      "M000017": 87.0,
+      "M000018": 87.0,
+      "M000019": 87.0,
+      "M000020": 87.0
+    },
+    "M000010": {
+      "M000001": 91.0,
+      "M000002": 95.0,
+      "M000003": 95.0,
+      "M000004": 95.0,
+      "M000005": 98.0,
+      "M000006": 93.0,
+      "M000007": 91.0,
+      "M000008": 91.0,
+      "M000009": 89.0,
+      "M000010": 100.0,
+      "M000011": 89.0,
+      "M000012": 91.0,
+      "M000013": 99.0,
+      "M000014": 90.0,
+      "M000015": 90.0,
+      "M000016": 97.0,
+      "M000017": 90.0,
+      "M000018": 90.0,
+      "M000019": 94.0,
+      "M000020": 98.0
+    },
+    "M000011": {
+      "M000001": 89.0,
+      "M000002": 93.0,
+      "M000003": 93.0,
+      "M000004": 93.0,
+      "M000005": 93.0,
+      "M000006": 99.0,
+      "M000007": 89.0,
+      "M000008": 89.0,
+      "M000009": 87.0,
+      "M000010": 93.0,
+      "M000011": 100.0,
+      "M000012": 88.0,
+      "M000013": 93.0,
+      "M000014": 88.0,
+      "M000015": 88.0,
+      "M000016": 92.0,
+      "M000017": 88.0,
+      "M000018": 88.0,
+      "M000019": 92.0,
+      "M000020": 92.0
+    },
+    "M000012": {
+      "M000001": 97.0,
+      "M000002": 87.0,
+      "M000003": 87.0,
+      "M000004": 87.0,
+      "M000005": 87.0,
+      "M000006": 87.0,
+      "M000007": 97.0,
+      "M000008": 99.0,
+      "M000009": 95.0,
+      "M000010": 89.0,
+      "M000011": 95.0,
+      "M000012": 100.0,
+      "M000013": 91.0,
+      "M000014": 96.0,
+      "M000015": 96.0,
+      "M000016": 90.0,
+      "M000017": 96.0,
+      "M000018": 96.0,
+      "M000019": 90.0,
+      "M000020": 90.0
+    },
+    "M000013": {
+      "M000001": 92.0,
+      "M000002": 96.0,
+      "M000003": 96.0,
+      "M000004": 96.0,
+      "M000005": 99.0,
+      "M000006": 94.0,
+      "M000007": 92.0,
+      "M000008": 92.0,
+      "M000009": 90.0,
+      "M000010": 95.0,
+      "M000011": 90.0,
+      "M000012": 92.0,
+      "M000013": 100.0,
+      "M000014": 91.0,
+      "M000015": 91.0,
+      "M000016": 99.0,
+      "M000017": 91.0,
+      "M000018": 91.0,
+      "M000019": 95.0,
+      "M000020": 99.0
+    },
+    "M000014": {
+      "M000001": 86.0,
+      "M000002": 86.0,
+      "M000003": 86.0,
+      "M000004": 86.0,
+      "M000005": 86.0,
+      "M000006": 86.0,
+      "M000007": 86.0,
+      "M000008": 86.0,
+      "M000009": 86.0,
+      "M000010": 86.0,
+      "M000011": 86.0,
+      "M000012": 86.0,
+      "M000013": 86.0,
+      "M000014": 100.0,
+      "M000015": 85.0,
+      "M000016": 86.0,
+      "M000017": 85.0,
+      "M000018": 85.0,
+      "M000019": 85.0,
+      "M000020": 85.0
+    },
+    "M000015": {
+      "M000001": 85.0,
+      "M000002": 85.0,
+      "M000003": 85.0,
+      "M000004": 85.0,
+      "M000005": 85.0,
+      "M000006": 85.0,
+      "M000007": 85.0,
+      "M000008": 85.0,
+      "M000009": 85.0,
+      "M000010": 85.0,
+      "M000011": 85.0,
+      "M000012": 85.0,
+      "M000013": 85.0,
+      "M000014": 85.0,
+      "M000015": 100.0,
+      "M000016": 85.0,
+      "M000017": 82.0,
+      "M000018": 84.0,
+      "M000019": 84.0,
+      "M000020": 84.0
+    },
+    "M000016": {
+      "M000001": 87.0,
+      "M000002": 91.0,
+      "M000003": 91.0,
+      "M000004": 91.0,
+      "M000005": 91.0,
+      "M000006": 91.0,
+      "M000007": 87.0,
+      "M000008": 87.0,
+      "M000009": 99.0,
+      "M000010": 87.0,
+      "M000011": 87.0,
+      "M000012": 90.0,
+      "M000013": 87.0,
+      "M000014": 86.0,
+      "M000015": 86.0,
+      "M000016": 100.0,
+      "M000017": 86.0,
+      "M000018": 86.0,
+      "M000019": 86.0,
+      "M000020": 86.0
+    },
+    "M000017": {
+      "M000001": 82.0,
+      "M000002": 82.0,
+      "M000003": 82.0,
+      "M000004": 82.0,
+      "M000005": 82.0,
+      "M000006": 82.0,
+      "M000007": 82.0,
+      "M000008": 82.0,
+      "M000009": 82.0,
+      "M000010": 82.0,
+      "M000011": 82.0,
+      "M000012": 82.0,
+      "M000013": 82.0,
+      "M000014": 82.0,
+      "M000015": 82.0,
+      "M000016": 82.0,
+      "M000017": 100.0,
+      "M000018": 82.0,
+      "M000019": 82.0,
+      "M000020": 81.0
+    },
+    "M000018": {
+      "M000001": 84.0,
+      "M000002": 84.0,
+      "M000003": 84.0,
+      "M000004": 84.0,
+      "M000005": 84.0,
+      "M000006": 84.0,
+      "M000007": 84.0,
+      "M000008": 84.0,
+      "M000009": 84.0,
+      "M000010": 84.0,
+      "M000011": 84.0,
+      "M000012": 84.0,
+      "M000013": 84.0,
+      "M000014": 84.0,
+      "M000015": 84.0,
+      "M000016": 84.0,
+      "M000017": 84.0,
+      "M000018": 100.0,
+      "M000019": 83.0,
+      "M000020": 83.0
+    },
+    "M000019": {
+      "M000001": 83.0,
+      "M000002": 83.0,
+      "M000003": 83.0,
+      "M000004": 83.0,
+      "M000005": 83.0,
+      "M000006": 83.0,
+      "M000007": 83.0,
+      "M000008": 83.0,
+      "M000009": 83.0,
+      "M000010": 83.0,
+      "M000011": 83.0,
+      "M000012": 83.0,
+      "M000013": 83.0,
+      "M000014": 83.0,
+      "M000015": 83.0,
+      "M000016": 83.0,
+      "M000017": 83.0,
+      "M000018": 83.0,
+      "M000019": 100.0,
+      "M000020": 82.0
+    },
+    "M000020": {
+      "M000001": 81.0,
+      "M000002": 81.0,
+      "M000003": 81.0,
+      "M000004": 81.0,
+      "M000005": 81.0,
+      "M000006": 81.0,
+      "M000007": 81.0,
+      "M000008": 81.0,
+      "M000009": 81.0,
+      "M000010": 81.0,
+      "M000011": 81.0,
+      "M000012": 81.0,
+      "M000013": 81.0,
+      "M000014": 81.0,
+      "M000015": 81.0,
+      "M000016": 81.0,
+      "M000017": 81.0,
+      "M000018": 81.0,
+      "M000019": 81.0,
+      "M000020": 100.0
+    }
+  },
+  "color_score": {
+    "Dark Gray": {
+      "Dark Gray": 95.0,
+      "Light Gray": 45.0,
+      "Light Green": 40.0,
+      "Dark Green": 90.0,
+      "Red": 60.0,
+      "Bright Red": 55.0,
+      "Black": 35.0,
+      "White": 45.0,
+      "Natural": 40.0,
+      "Bright Yellow": 45.0,
+      "Yellow": 45.0,
+      "Light Blue": 50.0,
+      "Dark Blue": 50.0,
+      "PC Transparent": 40.0,
+      "Metallic": 40.0
+    },
+    "Light Gray": {
+      "Dark Gray": 85.0,
+      "Light Gray": 95.0,
+      "Light Green": 80.0,
+      "Dark Green": 70.0,
+      "Red": 55.0,
+      "Bright Red": 50.0,
+      "Black": 80.0,
+      "White": 50.0,
+      "Natural": 85.0,
+      "Bright Yellow": 50.0,
+      "Yellow": 50.0,
+      "Light Blue": 85.0,
+      "Dark Blue": 80.0,
+      "PC Transparent": 85.0,
+      "Metallic": 85.0
+    },
+    "Light Green": {
+      "Dark Gray": 55.0,
+      "Light Gray": 55.0,
+      "Light Green": 95.0,
+      "Dark Green": 75.0,
+      "Red": 20.0,
+      "Bright Red": 20.0,
+      "Black": 60.0,
+      "White": 55.0,
+      "Natural": 65.0,
+      "Bright Yellow": 60.0,
+      "Yellow": 60.0,
+      "Light Blue": 90.0,
+      "Dark Blue": 85.0,
+      "PC Transparent": 65.0,
+      "Metallic": 65.0
+    },
+    "Dark Green": {
+      "Dark Gray": 70.0,
+      "Light Gray": 40.0,
+      "Light Green": 85.0,
+      "Dark Green": 95.0,
+      "Red": 30.0,
+      "Bright Red": 25.0,
+      "Black": 40.0,
+      "White": 65.0,
+      "Natural": 45.0,
+      "Bright Yellow": 65.0,
+      "Yellow": 65.0,
+      "Light Blue": 55.0,
+      "Dark Blue": 55.0,
+      "PC Transparent": 45.0,
+      "Metallic": 45.0
+    },
+    "Red": {
+      "Dark Gray": 60.0,
+      "Light Gray": 50.0,
+      "Light Green": 60.0,
+      "Dark Green": 25.0,
+      "Red": 95.0,
+      "Bright Red": 85.0,
+      "Black": 50.0,
+      "White": 55.0,
+      "Natural": 55.0,
+      "Bright Yellow": 75.0,
+      "Yellow": 75.0,
+      "Light Blue": 65.0,
+      "Dark Blue": 60.0,
+      "PC Transparent": 55.0,
+      "Metallic": 55.0
+    },
+    "Bright Red": {
+      "Dark Gray": 45.0,
+      "Light Gray": 60.0,
+      "Light Green": 45.0,
+      "Dark Green": 20.0,
+      "Red": 50.0,
+      "Bright Red": 95.0,
+      "Black": 55.0,
+      "White": 75.0,
+      "Natural": 60.0,
+      "Bright Yellow": 85.0,
+      "Yellow": 85.0,
+      "Light Blue": 70.0,
+      "Dark Blue": 65.0,
+      "PC Transparent": 60.0,
+      "Metallic": 60.0
+    },
+    "Black": {
+      "Dark Gray": 90.0,
+      "Light Gray": 30.0,
+      "Light Green": 35.0,
+      "Dark Green": 80.0,
+      "Red": 80.0,
+      "Bright Red": 90.0,
+      "Black": 95.0,
+      "White": 40.0,
+      "Natural": 35.0,
+      "Bright Yellow": 40.0,
+      "Yellow": 40.0,
+      "Light Blue": 45.0,
+      "Dark Blue": 45.0,
+      "PC Transparent": 35.0,
+      "Metallic": 35.0
+    },
+    "White": {
+      "Dark Gray": 40.0,
+      "Light Gray": 85.0,
+      "Light Green": 25.0,
+      "Dark Green": 15.0,
+      "Red": 15.0,
+      "Bright Red": 15.0,
+      "Black": 85.0,
+      "White": 95.0,
+      "Natural": 90.0,
+      "Bright Yellow": 30.0,
+      "Yellow": 30.0,
+      "Light Blue": 35.0,
+      "Dark Blue": 40.0,
+      "PC Transparent": 90.0,
+      "Metallic": 90.0
+    },
+    "Natural": {
+      "Dark Gray": 35.0,
+      "Light Gray": 90.0,
+      "Light Green": 30.0,
+      "Dark Green": 10.0,
+      "Red": 10.0,
+      "Bright Red": 10.0,
+      "Black": 90.0,
+      "White": 90.0,
+      "Natural": 95.0,
+      "Bright Yellow": 35.0,
+      "Yellow": 35.0,
+      "Light Blue": 40.0,
+      "Dark Blue": 45.0,
+      "PC Transparent": 95.0,
+      "Metallic": 95.0
+    },
+    "Bright Yellow": {
+      "Dark Gray": 75.0,
+      "Light Gray": 80.0,
+      "Light Green": 55.0,
+      "Dark Green": 30.0,
+      "Red": 45.0,
+      "Bright Red": 30.0,
+      "Black": 70.0,
+      "White": 60.0,
+      "Natural": 75.0,
+      "Bright Yellow": 95.0,
+      "Yellow": 90.0,
+      "Light Blue": 80.0,
+      "Dark Blue": 75.0,
+      "PC Transparent": 75.0,
+      "Metallic": 75.0
+    },
+    "Yellow": {
+      "Dark Gray": 80.0,
+      "Light Gray": 75.0,
+      "Light Green": 65.0,
+      "Dark Green": 35.0,
+      "Red": 35.0,
+      "Bright Red": 40.0,
+      "Black": 75.0,
+      "White": 80.0,
+      "Natural": 80.0,
+      "Bright Yellow": 90.0,
+      "Yellow": 95.0,
+      "Light Blue": 75.0,
+      "Dark Blue": 70.0,
+      "PC Transparent": 80.0,
+      "Metallic": 80.0
+    },
+    "Light Blue": {
+      "Dark Gray": 50.0,
+      "Light Gray": 70.0,
+      "Light Green": 70.0,
+      "Dark Green": 40.0,
+      "Red": 40.0,
+      "Bright Red": 35.0,
+      "Black": 65.0,
+      "White": 70.0,
+      "Natural": 70.0,
+      "Bright Yellow": 55.0,
+      "Yellow": 55.0,
+      "Light Blue": 95.0,
+      "Dark Blue": 90.0,
+      "PC Transparent": 70.0,
+      "Metallic": 70.0
+    },
+    "Dark Blue": {
+      "Dark Gray": 65.0,
+      "Light Gray": 35.0,
+      "Light Green": 50.0,
+      "Dark Green": 85.0,
+      "Red": 65.0,
+      "Bright Red": 45.0,
+      "Black": 45.0,
+      "White": 35.0,
+      "Natural": 50.0,
+      "Bright Yellow": 70.0,
+      "Yellow": 70.0,
+      "Light Blue": 60.0,
+      "Dark Blue": 95.0,
+      "PC Transparent": 50.0,
+      "Metallic": 50.0
+    },
+    "PC Transparent": {
+      "Dark Gray": 0.0,
+      "Light Gray": 0.0,
+      "Light Green": 0.0,
+      "Dark Green": 0.0,
+      "Red": 0.0,
+      "Bright Red": 0.0,
+      "Black": 0.0,
+      "White": 0.0,
+      "Natural": 0.0,
+      "Bright Yellow": 0.0,
+      "Yellow": 0.0,
+      "Light Blue": 0.0,
+      "Dark Blue": 0.0,
+      "PC Transparent": 100.0,
+      "Metallic": 0.0
+    },
+    "Metallic": {
+      "Dark Gray": 0.0,
+      "Light Gray": 0.0,
+      "Light Green": 0.0,
+      "Dark Green": 0.0,
+      "Red": 0.0,
+      "Bright Red": 0.0,
+      "Black": 0.0,
+      "White": 0.0,
+      "Natural": 0.0,
+      "Bright Yellow": 0.0,
+      "Yellow": 0.0,
+      "Light Blue": 0.0,
+      "Dark Blue": 0.0,
+      "PC Transparent": 0.0,
+      "Metallic": 100.0
+    },
+    "New Production": {}
+  }
+}

@@ -1,0 +1,7 @@
+information_mode: rolling_batch_v1
+service_days: [GD01, GD02, GD03]
+dispatch_rounds: [1, 2, 3, 4, 5, 6]
+total_periods: 18
+window_filename: orders.csv
+order_confirmations: organizer_only
+future_orders: hidden_until_release

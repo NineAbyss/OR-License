@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "activation_status": "enabled_cvar_semantic_review",
+  "model": "deepseek-flash",
+  "endpoint": "https://api.deepseek.com/v1/chat/completions",
+  "api_key_env": "ORLE_MODEL_REVIEW_API_KEY",
+  "timeout_seconds": null,
+  "max_tokens": 262144,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "max_source_bytes": 10485760,
+  "max_request_bytes": 10485760,
+  "review_revision": "agent-derived-statistics-case29-v2-per-epoch",
+  "optimization_kind": "cvar",
+  "extra_restriction_revision": "cvar-extra-restrictions-v1"
+}

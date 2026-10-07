@@ -1,0 +1,14 @@
+{
+  "contract_version": "sharedbike-rolling-e2e-4",
+  "history_hours": 72,
+  "raw_rows": 19133970,
+  "last_observed_event": "2026-08-29T07:55:55",
+  "files": [
+    "operator_events.csv",
+    "station_catalog.csv",
+    "inventory_anchor.csv",
+    "task_policy.yaml",
+    "raw_events.parquet"
+  ],
+  "scoring_disclosure_revision": "business-standard-primary-distance-v1"
+}

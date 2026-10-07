@@ -1,0 +1,10 @@
+{
+    "machine_num": 4,
+    "machine_state": [0, 2, 4, 1],
+    "max_loop": 10,
+    "halide_loop": 6,
+    "demand": [[5], [5], [5]],
+    "product_time": [40, 20],
+    "product_names": ["Product A", "brine"],
+    "time_limit": 180
+}

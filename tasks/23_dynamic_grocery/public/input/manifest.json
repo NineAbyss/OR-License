@@ -1,0 +1,10 @@
+{
+  "instances": [
+    "GD01",
+    "GD02",
+    "GD03"
+  ],
+  "dispatch_rounds": [1, 2, 3, 4, 5, 6],
+  "seed": 32032,
+  "orders_per_round": "varies by feasibility filter; at most 100"
+}

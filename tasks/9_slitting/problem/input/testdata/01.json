@@ -1,0 +1,231 @@
+{
+  "case_id": "01",
+  "contract_version": "slitting-harbor-2",
+  "thickness": 0.35,
+  "demands": [
+    {
+      "width": 471,
+      "quantity": 13000.0
+    },
+    {
+      "width": 512,
+      "quantity": 8500.0
+    },
+    {
+      "width": 571,
+      "quantity": 17000.0
+    },
+    {
+      "width": 660,
+      "quantity": 48000.0
+    },
+    {
+      "width": 710,
+      "quantity": 9525.64
+    }
+  ],
+  "rules": [
+    {
+      "rule_id": 1,
+      "mother_width": 665,
+      "strips": [
+        660
+      ],
+      "trim": 5.0
+    },
+    {
+      "rule_id": 2,
+      "mother_width": 715,
+      "strips": [
+        710
+      ],
+      "trim": 5.0
+    },
+    {
+      "rule_id": 3,
+      "mother_width": 920,
+      "strips": [
+        471,
+        421
+      ],
+      "trim": 28.0
+    },
+    {
+      "rule_id": 4,
+      "mother_width": 920,
+      "strips": [
+        471,
+        431
+      ],
+      "trim": 18.0
+    },
+    {
+      "rule_id": 5,
+      "mother_width": 1000,
+      "strips": [
+        501,
+        471
+      ],
+      "trim": 28.0
+    },
+    {
+      "rule_id": 6,
+      "mother_width": 1000,
+      "strips": [
+        512,
+        471
+      ],
+      "trim": 17.0
+    },
+    {
+      "rule_id": 8,
+      "mother_width": 1000,
+      "strips": [
+        512,
+        479.5
+      ],
+      "trim": 8.5
+    },
+    {
+      "rule_id": 9,
+      "mother_width": 1200,
+      "strips": [
+        621,
+        571
+      ],
+      "trim": 8.0
+    },
+    {
+      "rule_id": 10,
+      "mother_width": 1200,
+      "strips": [
+        681,
+        512
+      ],
+      "trim": 7.0
+    },
+    {
+      "rule_id": 11,
+      "mother_width": 1200,
+      "strips": [
+        710,
+        461
+      ],
+      "trim": 29.0
+    },
+    {
+      "rule_id": 12,
+      "mother_width": 1200,
+      "strips": [
+        710,
+        463
+      ],
+      "trim": 27.0
+    },
+    {
+      "rule_id": 14,
+      "mother_width": 1200,
+      "strips": [
+        710,
+        471
+      ],
+      "trim": 19.0
+    },
+    {
+      "rule_id": 15,
+      "mother_width": 1200,
+      "strips": [
+        710,
+        479.5
+      ],
+      "trim": 10.5
+    },
+    {
+      "rule_id": 16,
+      "mother_width": 1200,
+      "strips": [
+        710,
+        485
+      ],
+      "trim": 5.0
+    },
+    {
+      "rule_id": 17,
+      "mother_width": 1250,
+      "strips": [
+        660,
+        571
+      ],
+      "trim": 19.0
+    },
+    {
+      "rule_id": 19,
+      "mother_width": 1260,
+      "strips": [
+        681,
+        571
+      ],
+      "trim": 8.0
+    },
+    {
+      "rule_id": 20,
+      "mother_width": 1260,
+      "strips": [
+        683,
+        571
+      ],
+      "trim": 6.0
+    },
+    {
+      "rule_id": 21,
+      "mother_width": 1325,
+      "strips": [
+        660,
+        660
+      ],
+      "trim": 5.0
+    }
+  ],
+  "stock": [
+    {
+      "mother_width": 665,
+      "quantity": 0.0,
+      "owned": false
+    },
+    {
+      "mother_width": 715,
+      "quantity": 7527.0,
+      "owned": true
+    },
+    {
+      "mother_width": 920,
+      "quantity": 0.0,
+      "owned": false
+    },
+    {
+      "mother_width": 1000,
+      "quantity": 0.0,
+      "owned": false
+    },
+    {
+      "mother_width": 1200,
+      "quantity": 0.0,
+      "owned": false
+    },
+    {
+      "mother_width": 1250,
+      "quantity": 0.0,
+      "owned": false
+    },
+    {
+      "mother_width": 1260,
+      "quantity": 0.0,
+      "owned": false
+    },
+    {
+      "mother_width": 1325,
+      "quantity": 0.0,
+      "owned": false
+    }
+  ]
+}

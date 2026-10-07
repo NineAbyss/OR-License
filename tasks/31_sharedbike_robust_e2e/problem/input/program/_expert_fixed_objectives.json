@@ -1,0 +1,44 @@
+{
+  "schema": "fixed-expert-objectives-v1",
+  "contract_version": "sharedbike-robust-e2e-v4-online-fixed-expert-v1",
+  "start": "2026-08-30T12:00:00",
+  "lookahead": 4,
+  "reference_selection": "lex_min_full_move_vector_period_from_to_v1",
+  "epochs": [
+    {
+      "epoch": 0,
+      "objective": 399.13164303200006
+    },
+    {
+      "epoch": 1,
+      "objective": 687.610845096
+    },
+    {
+      "epoch": 2,
+      "objective": 1021.9417598240001
+    },
+    {
+      "epoch": 3,
+      "objective": 1064.879279264
+    },
+    {
+      "epoch": 4,
+      "objective": 754.732519808
+    },
+    {
+      "epoch": 5,
+      "objective": 683.0331804880001
+    },
+    {
+      "epoch": 6,
+      "objective": 915.813927496
+    },
+    {
+      "epoch": 7,
+      "objective": 253.229853216
+    }
+  ],
+  "source_candidate_contract": "sharedbike-robust-e2e-v4-online-fixed-expert-v1",
+  "primary_objective_abs_tolerance": 1e-07,
+  "scenario_statistics_revision": "robust-exact-rational-quantiles-v1"
+}

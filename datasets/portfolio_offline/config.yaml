@@ -1,0 +1,214 @@
+backtest:
+  EnhancedIndexBacktest1:
+    type: EnhancedIndexBacktest
+  LongShortBacktest1:
+    type: LongShortBacktest
+exposure_analysis:
+  shared_data:
+    data_fetcher_id: DataFetcher1
+    industry_factors:
+    - 银行
+    - 计算机
+    - 环保
+    - 商贸零售
+    - 电力设备
+    - 建筑装饰
+    - 建筑材料
+    - 农林牧渔
+    - 电子
+    - 交通运输
+    - 汽车
+    - 纺织服饰
+    - 医药生物
+    - 房地产
+    - 通信
+    - 公用事业
+    - 综合
+    - 机械设备
+    - 石油石化
+    - 有色金属
+    - 传媒
+    - 家用电器
+    - 基础化工
+    - 非银金融
+    - 社会服务
+    - 轻工制造
+    - 国防军工
+    - 美容护理
+    - 煤炭
+    - 食品饮料
+    - 钢铁
+    style_factors:
+    - momentum
+    - beta
+    - book_to_price
+    - earnings_yield
+    - liquidity
+    - size
+    - residual_volatility
+    - comovement
+    - leverage
+    - growth
+    - dividend_yield
+    - earnings_quality
+    - earnings_variability
+    - investment_quality
+    - longterm_reversal
+    - mid_cap
+    - profitability
+    bench: IN000852
+  ExposureAnalysis1:
+    type: ExposureAnalysis
+    data_fetcher_id: BarraDataFetcher1
+  CrossSectionalExposureAnalysis1:
+    type: CrossSectionalExposureAnalysis
+    dict_index_chinese:
+      is_300: 沪深300
+      is_500: 中证500
+      is_1000: 中证1000
+      other: 其它
+  TimeSeriesExposureAnalysis1:
+    type: TimeSeriesExposureAnalysis
+    data_fetcher_id: BarraDataFetcher1
+    bench_chi_name:
+      IN000852: 中证1000
+databases:
+  clickhouse1:
+    type: ClickHouseClient
+    host: 127.0.0.1
+    port: 9000
+    database: ods
+    user: offline
+    password: ''
+  DBTradingDayUtils1:
+    type: ClickHouseClient
+    host: 127.0.0.1
+    port: 9000
+    database: temp_factors
+    user: offline
+    password: ''
+    send_receive_timeout: 120
+    connect_timeout: 60
+  clickhouse2:
+    type: ClickHouseClient
+    host: 127.0.0.1
+    port: 9000
+    database: ods
+    user: offline
+    password: ''
+    send_receive_timeout: 120
+    connect_timeout: 60
+  clickhouse3:
+    type: ClickHouseClient
+    host: 127.0.0.1
+    port: 9000
+    database: ods
+    user: offline
+    password: ''
+    send_receive_timeout: 120
+    connect_timeout: 60
+  clickhouse4:
+    type: ClickHouseClient
+    host: 127.0.0.1
+    port: 9000
+    database: ods
+    user: offline
+    password: ''
+    send_receive_timeout: 120
+    connect_timeout: 60
+  RedisClient1:
+    type: RedisClient
+    host: 127.0.0.1
+    port: 6379
+    db: '1'
+    password: ''
+    decode_responses: true
+data_fetchers:
+  DataFetcher1:
+    type: DataFetcher
+    database_id: clickhouse4
+  BarraDataFetcher1:
+    type: BarraDataFetcher
+    database_id: clickhouse4
+  FactorDataFetcher1:
+    type: FactorDataFetcher
+    future_day_factor_names:
+    - close
+    - open
+    - high
+    - low
+    - volume
+    - settlement
+    - total_turnover
+    - listed_date
+    - de_listed_date
+    - open_interest
+    - margin_rate
+    - contract_multiplier
+    - vwap15
+    - is_dominant
+    - trading_code
+    index_day_factor_names:
+    - close
+    - open
+    - high
+    - low
+    - volume
+    - total_turnover
+    - prev_close
+    - vwap15
+    index_code_rename_map:
+      IN000016: IH
+      IN000300: IF
+      IN399905: IC
+      IN000852: IM
+  RedisDataFetcher1:
+    type: RedisDataFetcher
+    database_id: RedisClient1
+data_preprocessors:
+  DataPreprocessor1:
+    type: DataPreprocessor
+    data_fetcher_id: DataFetcher1
+portfolio_optimizers:
+  shared_data:
+    industries:
+    - 银行
+    - 计算机
+    - 环保
+    - 商贸零售
+    - 电力设备
+    - 建筑装饰
+    - 建筑材料
+    - 农林牧渔
+    - 电子
+    - 交通运输
+    - 汽车
+    - 纺织服饰
+    - 医药生物
+    - 房地产
+    - 通信
+    - 公用事业
+    - 综合
+    - 机械设备
+    - 石油石化
+    - 有色金属
+    - 传媒
+    - 家用电器
+    - 基础化工
+    - 非银金融
+    - 社会服务
+    - 轻工制造
+    - 国防军工
+    - 美容护理
+    - 煤炭
+    - 食品饮料
+    - 钢铁
+    solver_params:
+      TimeLimit: 3600
+      Threads: 64
+    tuning_params_list: null
+    data_preprocessor_id: DataPreprocessor1
+trading_day_utils:
+  TradingDayUtils1:
+    type: TradingDayUtils
+    db_client_id: DBTradingDayUtils1

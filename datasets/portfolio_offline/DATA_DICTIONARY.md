@@ -1,5 +1,7 @@
 # Offline portfolio inputs
 
+English · [中文](DATA_DICTIONARY-zh_CN.md)
+
 Paths are relative to this directory.
 
 | Input | Path | Purpose |

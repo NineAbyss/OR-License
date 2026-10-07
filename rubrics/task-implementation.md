@@ -1,5 +1,7 @@
 # Task implementation rubric
 
+English · [中文](task-implementation-zh_CN.md)
+
 Reviewers use this checklist on every new-task pull request. `python scripts/validate_task.py tasks/<task> --strict --oracle` covers the mechanical items; the rest needs reading the files and at least one agent trajectory.
 
 ## Contract

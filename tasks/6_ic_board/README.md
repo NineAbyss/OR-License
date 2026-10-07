@@ -2,6 +2,8 @@
 
 # 6_ic_board
 
+English · [中文](README-zh_CN.md)
+
 The complete task contract is in `problem/input/problem_description.md`.
 
 - `problem/brief.md`: initial business brief.

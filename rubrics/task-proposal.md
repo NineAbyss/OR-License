@@ -1,5 +1,7 @@
 # Task proposal rubric
 
+English · [中文](task-proposal-zh_CN.md)
+
 A proposal is approved when the answer to every question below is yes, or when the open questions can clearly be resolved during implementation. Reviewers write a short reason for each "no".
 
 ## Real

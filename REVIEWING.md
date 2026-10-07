@@ -1,5 +1,7 @@
 # Reviewing OR-License tasks
 
+English · [中文](REVIEWING-zh_CN.md)
+
 This guide is for reviewers of task proposals, new-task pull requests and task fixes. Contributors should read [CONTRIBUTING.md](CONTRIBUTING.md) and [TASK_FORMAT.md](TASK_FORMAT.md) first.
 
 ## Roles

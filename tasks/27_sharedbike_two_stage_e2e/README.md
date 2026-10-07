@@ -2,6 +2,8 @@
 
 # 27_sharedbike_two_stage_e2e
 
+English · [中文](README-zh_CN.md)
+
 The complete task contract is in `problem/input/problem_description.md`.
 
 - `problem/brief.md`: initial business brief.

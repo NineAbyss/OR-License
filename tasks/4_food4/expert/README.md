@@ -2,4 +2,6 @@
 
 # Optional solution method for 4_food4
 
+English · [中文](README-zh_CN.md)
+
 Install `requirements.txt` when provided, then run `python tasks/4_food4/expert/run.py --help` from the repository root for its input and output arguments. The solver uses bundled task inputs; output files are generated only when you invoke it.

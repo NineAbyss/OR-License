@@ -134,4 +134,4 @@ python run_eval.py --task <task> --model tested --tag try-1
 
 ## 联系方式
 
-与具体任务相关的问题请在任务提议 issue 或 pull request 中讨论，其他问题请到 [GitHub Discussions](../../discussions)。
+与具体任务相关的问题请在任务提议 issue 或 pull request 中讨论。其他问题请发邮件至 ps.wang@connect.hkust-gz.edu.cn 或 feixue_liu@connect.hku.hk。

@@ -134,4 +134,4 @@ If an agent passes a task through a shortcut, or a verifier, evaluator or ledger
 
 ## Contact
 
-Use the task proposal issue or the pull request for task-specific questions, and [GitHub Discussions](../../discussions) for everything else.
+Use the task proposal issue or the pull request for task-specific questions. For anything else, email ps.wang@connect.hkust-gz.edu.cn or feixue_liu@connect.hku.hk.

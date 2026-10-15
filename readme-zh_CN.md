@@ -4,7 +4,7 @@
   <a href="https://or-license.com/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20WEBSITE-2ea44f?style=for-the-badge" alt="Project website"></a>
   <a href="https://huggingface.co/datasets/OR-License/OR-License"><img src="https://img.shields.io/badge/DATA-4d5eff?style=for-the-badge&logo=huggingface&logoColor=white" alt="Hugging Face data"></a>
   <a href="https://github.com/NineAbyss/OR-License"><img src="https://img.shields.io/badge/CODE-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub code"></a>
-  <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/PAPER-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv paper"></a>
+  <a title="Paper coming soon" aria-disabled="true"><img src="https://img.shields.io/badge/PAPER-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper coming soon" title="Paper coming soon"></a>
 </p>
 
 <p align="center"><a href="readme.md">English</a> · 中文</p>

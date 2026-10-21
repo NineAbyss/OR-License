@@ -1,12 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="144" viewBox="0 0 720 144" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200" role="img" aria-labelledby="title desc">
   <title id="title">Hugging Face: #1 Paper of the Day</title>
   <desc id="desc">October 20, 2026</desc>
-  <rect x="1" y="1" width="718" height="142" rx="20" fill="#fff8df" stroke="#e8bd47" stroke-width="2"/>
-  <circle cx="76" cy="72" r="44" fill="#ffd54a"/>
-  <path d="m76 39 8 16 18 3-13 13 3 18-16-9-16 9 3-18-13-13 18-3Z" fill="#835a00"/>
-  <g font-family="Arial, Helvetica, sans-serif" fill="#292524">
-    <text x="144" y="39" font-size="20" font-weight="700" letter-spacing="2">HUGGING FACE</text>
-    <text x="144" y="83" font-size="36" font-weight="700">#1 Paper of the Day</text>
-    <text x="144" y="117" font-size="22" fill="#786331">October 20, 2026</text>
+  <defs>
+    <linearGradient id="ivory" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffefa"/>
+      <stop offset="1" stop-color="#fff6df"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#d4ac4a"/>
+      <stop offset="0.55" stop-color="#b58a29"/>
+      <stop offset="1" stop-color="#98701d"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6ca86"/>
+      <stop offset="1" stop-color="#d6b568"/>
+    </linearGradient>
+    <g id="laurel">
+      <path d="M124 174C83 162 49 130 51 82C52 63 58 46 69 31" fill="none" stroke="#ae8327" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M61 48C54 34 61 21 75 19C77 32 70 43 61 48Z"/>
+      <path d="M53 77C36 70 33 57 40 47C54 54 58 65 53 77Z"/>
+      <path d="M53 89C51 73 60 60 72 58C73 73 65 83 53 89Z"/>
+      <path d="M54 104C34 103 25 91 26 78C42 80 52 88 54 104Z"/>
+      <path d="M60 122C51 106 56 92 68 86C77 98 71 113 60 122Z"/>
+      <path d="M75 141C52 145 37 137 33 123C53 119 67 126 75 141Z"/>
+      <path d="M88 154C70 143 66 127 73 114C88 119 94 137 88 154Z"/>
+      <path d="M109 170C87 182 69 177 58 166C76 153 94 158 109 170Z"/>
+    </g>
+  </defs>
+  <rect x="1" y="1" width="718" height="198" rx="24" fill="url(#ivory)" stroke="url(#border)" stroke-width="2"/>
+  <g fill="url(#gold)">
+    <use href="#laurel"/>
+    <use href="#laurel" transform="translate(248 0) scale(-1 1)"/>
+  </g>
+  <text x="124" y="120" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="-3" fill="#92651c">#1</text>
+  <path d="M238 48V152" stroke="#ddcba0" stroke-width="1"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="270" y="62" font-size="20" font-weight="700" letter-spacing="3" fill="#8b682d">HUGGING FACE</text>
+    <text x="268" y="110" font-size="44" font-weight="700" letter-spacing="-0.8" fill="#30291c">Paper of the Day</text>
+    <text x="270" y="151" font-size="24" fill="#81704f">October 20, 2026</text>
   </g>
 </svg>
